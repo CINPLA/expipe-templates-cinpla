@@ -1,11 +1,12 @@
 {
     "angle": {
         "unit": "deg",
-        "value": "0"
+        "value": [
+            "0"
+        ]
     },
     "definition": "Describing an implantation procedure of an optic fibre.",
     "description": {
-        "type": "string",
         "value": ""
     },
     "identifier": "mikkel_implant_fibre",
@@ -16,16 +17,15 @@
             "MS": true
         },
         "definition": "Describes the brain area of recording. MS: Medial Septum, MECR: Medial Entorhinal Cortex Right hemisphere, MECL: Medial Entorhinal Cortex Left hemisphere, ",
-        "type": "string",
         "value": "MS"
-    },
-    "notes": {
-        "type": "string",
-        "value": ""
     },
     "position": {
         "unit": "mm",
-        "value": "0, 0.6, z"
+        "value": [
+            "0",
+            " 0.6",
+            " z"
+        ]
     },
     "position_reference": {
         "alternatives": {
@@ -37,7 +37,10 @@
             "transverse sinus": true
         },
         "definition": "By default position are specified by the coordinates of skull. Use this property for other definitions.",
-        "type": "list",
-        "value": "bregma, bregma, skull"
+        "value": [
+            "bregma",
+            " bregma",
+            " skull"
+        ]
     }
 }

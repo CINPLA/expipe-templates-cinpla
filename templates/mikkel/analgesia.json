@@ -1,7 +1,6 @@
 {
     "analgesic": {
         "definition": "The drug used for analgesia.",
-        "type": "string",
         "value": "Temgesic"
     },
     "analgesic_dose": {
@@ -11,12 +10,7 @@
     "definition": "Analgesia , during surgery.",
     "description": {
         "definition": "A textual description of the preparation.",
-        "type": "string",
         "value": "Analgesics"
     },
-    "identifier": "mikkel_analgesia",
-    "notes": {
-        "type": "string",
-        "value": ""
-    }
+    "identifier": "mikkel_analgesia"
 }

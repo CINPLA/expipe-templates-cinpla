@@ -1,53 +1,48 @@
 {
     "coating": {
         "definition": "The coating used to insulate the electrodes.",
-        "type": "string",
         "value": "Heavy poly-imid"
     },
     "definition": "Describing electrodes in tetrodes used.",
     "description": {
-        "type": "string",
         "value": "Tetrode - four electrodes wined together."
     },
     "electro_plating": {
         "definition": "Specifies whether or not electro plating was performed.",
-        "type": "bool",
         "value": "true"
     },
     "electrode_count": {
         "definition": "Number of electrodes in a multi-electrode-array.",
-        "type": "int",
         "value": 4
     },
     "electrode_specification": {
         "unit": "um",
-        "value": "17"
+        "value": [
+            "17"
+        ]
     },
     "identifier": "mikkel_tetrode",
     "impedance": {
         "definition": "Electrode impedance.",
-        "type": "quantity",
         "uncertainty": "100",
         "unit": "k ohm",
-        "value": "150"
+        "value": [
+            "150"
+        ]
     },
     "manufacturer": {
         "definition": "The manufacturer of the electrodes if e.g. ordered from a company.",
-        "type": "string",
         "value": "California fine wire, CA, USA"
     },
     "material": {
         "definition": "The Material the electrodes are made of e.g. glass. tungsten, steel ...",
-        "type": "string",
         "value": "10 % platinum, 90 % iridium"
-    },
-    "notes": {
-        "type": "string",
-        "value": ""
     },
     "tip_size": {
         "unit": "um",
-        "value": "34"
+        "value": [
+            "34"
+        ]
     },
     "type": {
         "alternatives": {
@@ -58,7 +53,6 @@
             "sharp": true
         },
         "definition": "The type of electrode registration.",
-        "type": "string",
         "value": "extracellular"
     },
     "usage": {
@@ -68,7 +62,6 @@
             "Reference": true
         },
         "definition": "Usage of tetrode.",
-        "type": "string",
         "value": "Channel"
     }
 }

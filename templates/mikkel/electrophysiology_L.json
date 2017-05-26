@@ -1,8 +1,12 @@
 {
     "channel_groups": {
         "definition": "Which channel groups are associated with this electrophysiological measurement",
-        "type": "list",
-        "value": "0,1,2,3"
+        "value": [
+            "0",
+            "1",
+            "2",
+            "3"
+        ]
     },
     "definition": "Describing electrophysiology in the expirimental setup.",
     "depth": {
@@ -13,7 +17,6 @@
         "alternatives": {
             "dura": true,
             "skull": true,
-            "type": "string",
             "value": "dura"
         }
     },
@@ -22,7 +25,6 @@
             "L": "left hemisphere",
             "R": "right hemisphere"
         },
-        "type": "string",
         "value": "L"
     },
     "identifier": "mikkel_electrophysiology_L",
@@ -33,12 +35,7 @@
             "MS": "Medial septum"
         },
         "definition": "Describes the brain area of recording.",
-        "type": "string",
         "value": "MECL"
-    },
-    "notes": {
-        "type": "string",
-        "value": ""
     },
     "subtype": {
         "alternatives": {
@@ -47,7 +44,6 @@
             "single electrode recording": true
         },
         "definition": "Subtype of this electrophysiological experiment.",
-        "type": "string",
         "value": "multi electrode recording"
     },
     "type": {
@@ -62,7 +58,6 @@
             "patch clamp": true,
             "whole cell patch": true
         },
-        "type": "string",
         "value": "extracellular recording"
     }
 }

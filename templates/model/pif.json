@@ -3,7 +3,6 @@
     "identifier": "model_pif",
     "simulation_type": {
         "definition": "The type of simulation: mathmatical, phenomenological, biophysical etc..",
-        "type": "string",
         "value": ""
     }
 }

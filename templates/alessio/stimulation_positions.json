@@ -1,7 +1,6 @@
 {
     "circles": {
         "definition": "Circles information: x, y, radius, and on/off",
-        "type": "circle",
         "unit": "[0, 1]",
         "value": ""
     },

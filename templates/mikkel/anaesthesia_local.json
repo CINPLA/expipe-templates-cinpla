@@ -1,13 +1,11 @@
 {
     "description": {
         "definition": "A textual description of the preparation.",
-        "type": "string",
         "value": "Local anaesthetics"
     },
     "identifier": "mikkel_anaesthesia_local",
     "local_anaesthetic": {
         "definition": "The drug that was used for local anaesthesia.",
-        "type": "string",
         "value": "Marcain"
     },
     "local_anaesthetic_dose": {
@@ -16,11 +14,6 @@
     },
     "local_anaesthetic_location": {
         "definition": "Describes the place the local anaesthetic was applied.",
-        "type": "string",
         "value": "Skin covering dorsal part of head, around cut area."
-    },
-    "notes": {
-        "type": "string",
-        "value": ""
     }
 }

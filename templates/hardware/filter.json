@@ -2,53 +2,43 @@
     "definition": "Properties a filter modul for analog signal conditioning.",
     "description": {
         "definition": "A description of this hardware item.",
-        "type": "string",
         "value": ""
     },
     "highpass_cutoff": {
         "definition": "The highpass filter cutoff frequency.",
-        "type": "float",
         "value": ""
     },
     "highpass_order": {
         "definition": "The order of the highpass filter",
-        "type": "int",
         "value": ""
     },
     "identifier": "hardware_filter",
     "inventory_no": {
         "definition": "The inventory number of the device.",
-        "type": "string",
         "value": ""
     },
     "lowpass_cutoff": {
         "definition": "The lowpass filter cutoff frequency.",
-        "type": "float",
         "value": ""
     },
     "lowpass_order": {
         "definition": "The order of the lowpass filter",
-        "type": "int",
         "value": ""
     },
     "manufacturer": {
         "definition": "The Manufacturer of this hardware item.",
-        "type": "string",
         "value": ""
     },
     "model": {
         "definition": "The model name of this hardware item.",
-        "type": "string",
         "value": ""
     },
     "owner": {
         "definition": "Who's the owner of the device.",
-        "type": "string",
         "value": ""
     },
     "serial_no": {
         "definition": "The device's serial number.",
-        "type": "string",
         "value": ""
     },
     "sub_type": {
@@ -57,7 +47,6 @@
             "Butterworth": true
         },
         "definition": "The type of filter.",
-        "type": "string",
         "value": ""
     },
     "type": {
@@ -68,7 +57,6 @@
             "Notch": true
         },
         "definition": "The type of filter.",
-        "type": "string",
         "value": ""
     }
 }

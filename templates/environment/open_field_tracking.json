@@ -1,56 +1,46 @@
 {
     "box_distal_que": {
         "definition": "Distal que in the environment.",
-        "type": "string",
         "value": "curtains, DAC, cable to headstage in celing"
     },
     "box_distal_que_position": {
         "definition": "Distal que in the environment",
-        "type": "string",
         "value": "north"
     },
     "box_local_que": {
         "definition": "Local que in the environment",
-        "type": "string",
         "value": "white A4 paper sheet"
     },
     "box_local_que_position": {
         "definition": "Position of local que in the environment, relative to position reference",
-        "type": "string",
         "value": "north"
     },
     "box_size": {
         "unit": "cm",
-        "value": "100, 100"
+        "value": [
+            "100",
+            " 100"
+        ]
     },
     "box_type": {
         "definition": "The shape of the box",
-        "type": "string",
         "value": "square box"
     },
     "definition": "Describing tracking setup, e.g. info on box size and ques.",
     "description": {
-        "type": "string",
         "value": "Environment during open field experiment."
     },
     "experimenter_position": {
         "definition": "Position of experimenter relative to behaviour setup",
-        "type": "string",
         "value": "right side"
     },
     "identifier": "mikkel_tracking_environment",
     "light_intensity": {
         "definition": "Intesity of light",
-        "type": "string",
         "value": "minimal light from small lamp and desktop computer screen"
-    },
-    "notes": {
-        "type": "string",
-        "value": ""
     },
     "position_reference": {
         "definition": "Position reference of the room",
-        "type": "string",
         "value": "TODO"
     },
     "relative_humidity": {

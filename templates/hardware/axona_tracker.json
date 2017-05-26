@@ -1,57 +1,46 @@
 {
     "calibration": {
         "definition": "The calibration procedure.",
-        "type": "string",
         "value": ""
     },
     "comment": {
         "definition": "Space for some comments.",
-        "type": "string",
         "value": ""
     },
     "definition": "Describing the tracking setup with Axona",
     "description": {
         "definition": "A description of this hardware item.",
-        "type": "string",
         "value": ""
     },
     "filter": {
         "definition": "The kind of filter applied to the data.",
-        "type": "string",
         "value": ""
     },
     "identifier": "hardware_axona_tracker",
     "inventory_no": {
         "definition": "The inventory number of the device.",
-        "type": "string",
         "value": ""
     },
     "manufacturer": {
         "definition": "The Manufacturer of this hardware item.",
-        "type": "string",
         "value": ""
     },
     "model": {
         "definition": "The model name of this hardware item.",
-        "type": "string",
-        "value": ""
-    },
-    "notes": {
-        "type": "string",
         "value": ""
     },
     "owner": {
         "definition": "Who's the owner of the device.",
-        "type": "string",
         "value": ""
     },
     "sample_rate": {
         "unit": "Hz",
-        "value": ""
+        "value": [
+            ""
+        ]
     },
     "serial_no": {
         "definition": "The device's serial number.",
-        "type": "string",
         "value": ""
     }
 }

@@ -10,7 +10,6 @@
             "two-photon": true
         },
         "definition": "The type of imaging like two-photon, confocal, REM, light microscopy, fMRI, etc..",
-        "type": "string",
         "value": ""
     }
 }

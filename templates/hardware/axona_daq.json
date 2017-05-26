@@ -1,77 +1,62 @@
 {
     "channel_count": {
         "definition": "The number of input channels of the DAQ-device.",
-        "type": "int",
         "value": "64"
     },
     "definition": "Describing the Axonda DAC",
     "description": {
         "definition": "A description of this hardware item.",
-        "type": "string",
         "value": ""
     },
     "dio_line_count": {
         "definition": "The number of digital input/output lines (DIO) of the device.",
-        "type": "int",
         "value": ""
     },
     "identifier": "hardware_axona_daq",
     "inventory_no": {
         "definition": "The inventory number of the device.",
-        "type": "string",
         "value": ""
     },
     "manufacturer": {
         "definition": "The Manufacturer of this hardware item.",
-        "type": "string",
         "value": "Axona"
     },
     "max_sample_rate": {
         "unit": "Hz",
-        "value": "48000"
+        "value": [
+            "48000"
+        ]
     },
     "model": {
         "definition": "The model name of this hardware item.",
-        "type": "string",
-        "value": ""
-    },
-    "notes": {
-        "type": "string",
         "value": ""
     },
     "owner": {
         "definition": "Who's the owner of the device.",
-        "type": "string",
         "value": "Marianne Fyhn, Torkel Hafting"
     },
     "polarity": {
         "definition": "The polarity of the measurement \"unipolar\" or \"bipolar\".",
-        "type": "string",
         "value": ""
     },
     "reference": {
         "definition": "The reference to which voltages were measured. Usually either \"common ground\" or \"differential\".",
-        "type": "string",
         "value": "differential"
     },
     "resolution": {
         "definition": "The voltage resolution of the analog input (AIN) subsystem given in bit.",
-        "type": "int",
         "value": ""
     },
     "sample_rate": {
         "definition": "The sample rate with which an individual input channel was sampled. Given in Hz.",
-        "type": "int",
         "value": "48000"
     },
     "serial_no": {
         "definition": "The device's serial number.",
-        "type": "string",
         "value": ""
     },
     "used_channel_count": {
         "definition": "The number of used analog input channels.",
-        "type": "int",
         "value": "32"
     }
 }

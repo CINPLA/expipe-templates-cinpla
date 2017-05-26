@@ -8,7 +8,6 @@
             "single electrode recording": true
         },
         "definition": "Subtype of this electrophysiological experiment.",
-        "type": "string",
         "value": ""
     },
     "type": {
@@ -24,7 +23,6 @@
             "whole cell patch": true
         },
         "definition": "Intracellular recording of single cell responses with sharp microelectrodes.",
-        "type": "string",
         "value": ""
     }
 }

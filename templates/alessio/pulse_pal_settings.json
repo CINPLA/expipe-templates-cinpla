@@ -5,19 +5,15 @@
         "unit": "s",
         "value": ""
     },
-    "notes": {
-        "definition": "Notes specific for this stimulus session.",
-        "type": "string",
-        "value": ""
-    },
     "output_channels": {
         "definition": "The physical output channels used.",
-        "type": "list",
-        "value": "1, 4"
+        "value": [
+            "1",
+            " 4"
+        ]
     },
     "output_device": {
         "definition": "The physical output device.",
-        "type": "string",
         "value": "Pulse Pal"
     },
     "outputs": {
@@ -27,13 +23,17 @@
             "Trigger": "PulsePal used as trigger for electrical stimulation"
         },
         "definition": "The output purpose.",
-        "type": "list",
-        "value": "Trigger, Sync"
+        "value": [
+            "Trigger",
+            " Sync"
+        ]
     },
     "outputs_to": {
         "definition": "The receiving end of the output channels.",
-        "type": "list",
-        "value": "Intan Stimulation Recording Controller, Intan Stimulation Recording Controller"
+        "value": [
+            "Intan Stimulation Recording Controller",
+            " Intan Stimulation Recording Controller"
+        ]
     },
     "pulse_frequency": {
         "unit": "Hz",
@@ -52,14 +52,12 @@
         "value": ""
     },
     "pulse_voltage": {
-        "type": "quantity",
         "unit": "Volt",
         "value": ""
     },
     "registered": "2017-05-24T16:30:04.973Z",
     "repetitions": {
         "definition": "The number of repetitions of the described stimulation. Defined as on time of a train of pulses",
-        "type": "int",
         "value": ""
     },
     "start_times": {
@@ -72,7 +70,6 @@
     },
     "trigger_channels": {
         "definition": "If externally triggered, by which channel.",
-        "type": "list",
         "value": ""
     },
     "trigger_software": {
@@ -81,7 +78,6 @@
             "OpenEphys": "Trigger software from the Open Ephys GUI"
         },
         "definition": "What software triggers the pulsepal.",
-        "type": "string",
         "value": ""
     }
 }

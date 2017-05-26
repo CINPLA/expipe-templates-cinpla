@@ -8,12 +8,6 @@
             "MS": "Medial Septum"
         },
         "definition": "Describes the site of the stimulus application. If the location is MEC, the depth is the same as in electrophysiology minus 0.5 mm",
-        "type": "string",
-        "value": ""
-    },
-    "notes": {
-        "definition": "Notes specific for this stimulus session.",
-        "type": "string",
         "value": ""
     },
     "registered": "2017-04-06T16:11:29.573Z"

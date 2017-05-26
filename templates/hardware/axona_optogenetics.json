@@ -1,24 +1,22 @@
 {
     "channels": {
         "definition": "The used analog input channels for ttl pulses.",
-        "type": "list",
-        "value": "33, 34, 35, 36"
+        "value": [
+            "33",
+            " 34",
+            " 35",
+            " 36"
+        ]
     },
     "definition": "Optogenetics when combined with the Axona recording system",
     "description": {
         "definition": "A description of this hardware item.",
-        "type": "string",
         "value": ""
     },
     "identifier": "hardware_axona_optogenetics",
-    "notes": {
-        "type": "string",
-        "value": ""
-    },
     "registered": "2017-04-04T15:40:27.564Z",
     "tetrode": {
         "definition": "The used analog input tetrode for ttl pulses.",
-        "type": "int",
         "value": "9"
     }
 }

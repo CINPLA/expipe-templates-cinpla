@@ -1,49 +1,40 @@
 {
     "comment": {
         "definition": "Comments on the recording session.",
-        "type": "string",
         "value": ""
     },
     "definition": "During a recording session in a Setup Datasets are\n      obtained from Cells and/or a Subject by using various stimuli (Stimulus section).",
     "end": {
         "definition": "The date and time at which the recording ended in  (YYYY-MM-DD hh:mm:ss format).",
-        "type": "datetime",
         "value": ""
     },
     "end_date": {
         "definition": "The date the recording session ended (YYYY-MM-DD\n         format).",
-        "type": "date",
         "value": ""
     },
     "end_time": {
         "definition": "The time the recordings ended (hh:mm:ss format).",
-        "type": "time",
         "value": ""
     },
     "experimenter": {
         "definition": "The name of the person actually performing the recordings.",
-        "type": "person",
         "value": ""
     },
     "experimenter_id": {
         "definition": "If registered in a database the primary key of the person that performed the experiments.",
-        "type": "person",
         "value": ""
     },
     "identifier": "recording_recording",
     "start": {
         "definition": "The date and time at which the recording started in  (YYYY-MM-DD hh:mm:ss format).",
-        "type": "datetime",
         "value": ""
     },
     "start_date": {
         "definition": "The date the recording session was conducted (YYYY-MM-DD format).",
-        "type": "date",
         "value": ""
     },
     "start_time": {
         "definition": "The time the recordings began (hh:mm:ss format).",
-        "type": "time",
         "value": ""
     }
 }

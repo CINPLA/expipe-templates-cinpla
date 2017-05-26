@@ -2,53 +2,43 @@
     "definition": "This is a software section .",
     "description": {
         "definition": "The descrisption of the software.",
-        "type": "string",
         "value": "The Open Ephys GUI was built by neuroscientists, for neuroscientists. It already has all the features needed to acquire and visualize your data\u2014but it also makes it easy to add new modules written in C++."
     },
     "developer": {
         "definition": "The developer or the developers firm.",
-        "type": "string",
         "value": "Open Ephys Team"
     },
     "distribution": {
         "definition": "Distribution type",
-        "type": "string",
         "value": ""
     },
     "identifier": "software_openephys_gui",
     "licence": {
         "definition": "License type",
-        "type": "string",
         "value": ""
     },
     "licence_count": {
         "definition": "Number of the software's licence.",
-        "type": "int",
         "value": ""
     },
     "licence_duration": {
         "definition": "Duration of the licence for the software.",
-        "type": "string",
         "value": ""
     },
     "licence_expiration": {
         "definition": "The end date of time limited licence.",
-        "type": "date",
         "value": ""
     },
     "licence_start": {
         "definition": "The start date of time limited licence.",
-        "type": "date",
         "value": ""
     },
     "owner": {
         "definition": "The owner of the software.",
-        "type": "string",
         "value": ""
     },
     "version": {
         "definition": "Version of the software.",
-        "type": "string",
         "value": "0.4.1"
     }
 }

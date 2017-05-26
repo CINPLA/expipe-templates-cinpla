@@ -1,68 +1,55 @@
 {
     "coating": {
         "definition": "The coating used to insulate the electrodes.",
-        "type": "string",
         "value": ""
     },
     "definition": "Properties to describe an electrode.",
     "description": {
-        "type": "string",
         "value": ""
     },
     "electrode_count": {
         "definition": "Number of electrodes in a multi-electrode-array.",
-        "type": "int",
         "value": ""
     },
     "fire_polish": {
         "definition": "Specifies whether or not the electrodes were fire polished.",
-        "type": "boolean",
         "value": ""
     },
     "glass_specification": {
         "definition": "Inner and outer diameter, with or without filament.",
-        "type": "string",
         "value": ""
     },
     "glass_type": {
         "definition": "The Type of Glass used to pull these electrodes. (e.g. Quartz, Borosilicate)",
-        "type": "string",
         "value": ""
     },
     "identifier": "electrode_electrode",
     "impedance": {
         "definition": "Electrode impedance.",
-        "type": "float",
         "value": ""
     },
     "manufacturer": {
         "definition": "The manufacturer of the electrodes if e.g. ordered from a company.",
-        "type": "string",
         "value": ""
     },
     "material": {
         "definition": "The Material the electrodes are made of e.g. glass. tungsten, steel ...",
-        "type": "string",
         "value": ""
     },
     "pull_parameter": {
         "definition": "The specific pull parameters like heat, trip velocity, heat and cooling duration etc..",
-        "type": "string",
         "value": ""
     },
     "puller": {
         "definition": "The Puller used to make the electrodes.",
-        "type": "string",
         "value": ""
     },
     "shape_parameters": {
         "definition": "The shape parameters of the electrode.",
-        "type": "string",
         "value": ""
     },
     "tip_size": {
         "definition": "The tip size.",
-        "type": "float",
         "value": ""
     },
     "type": {
@@ -76,7 +63,6 @@
             "tetrode": true
         },
         "definition": "The type of electrode.",
-        "type": "string",
         "value": ""
     },
     "usage": {
@@ -86,7 +72,6 @@
             "Reference": true
         },
         "definition": "Usage of electrode.",
-        "type": "string",
         "value": ""
     }
 }

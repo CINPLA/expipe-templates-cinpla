@@ -1,18 +1,15 @@
 {
     "calibration": {
         "definition": "The calibration procedure.",
-        "type": "string",
         "value": ""
     },
     "comment": {
         "definition": "Space for some comments.",
-        "type": "string",
         "value": ""
     },
     "definition": "Properties of an eyetracker.",
     "description": {
         "definition": "A description of this hardware item.",
-        "type": "string",
         "value": ""
     },
     "detektor_type": {
@@ -22,12 +19,10 @@
             "Infrared": true
         },
         "definition": "The kind of detektor used in this eyetracker.",
-        "type": "string",
         "value": ""
     },
     "filter": {
         "definition": "The kind of filter applied to the data.",
-        "type": "string",
         "value": ""
     },
     "fixation": {
@@ -36,38 +31,31 @@
             "Chinrest": true
         },
         "definition": "The way the head was fixed. Makes no sense if the eytracker is head mounted.",
-        "type": "string",
         "value": ""
     },
     "identifier": "hardware_eyetracker",
     "inventory_no": {
         "definition": "The inventory number of the device.",
-        "type": "string",
         "value": ""
     },
     "manufacturer": {
         "definition": "The Manufacturer of this hardware item.",
-        "type": "string",
         "value": ""
     },
     "model": {
         "definition": "The model name of this hardware item.",
-        "type": "string",
         "value": ""
     },
     "owner": {
         "definition": "Who's the owner of the device.",
-        "type": "string",
         "value": ""
     },
     "sample_rate": {
         "definition": "The rate with which eye positions are sampled.",
-        "type": "float",
         "value": ""
     },
     "serial_no": {
         "definition": "The device's serial number.",
-        "type": "string",
         "value": ""
     },
     "type": {
@@ -76,7 +64,6 @@
             "tabletop": true
         },
         "definition": "The kind of eyetracker.",
-        "type": "string",
         "value": ""
     }
 }

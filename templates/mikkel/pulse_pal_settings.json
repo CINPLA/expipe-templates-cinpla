@@ -5,25 +5,23 @@
         "unit": "s",
         "value": ""
     },
-    "notes": {
-        "definition": "Notes specific for this stimulus session.",
-        "type": "string",
-        "value": ""
-    },
     "output_channels": {
         "definition": "The physical output channels used.",
-        "type": "list",
-        "value": "1,2"
+        "value": [
+            "1",
+            "2"
+        ]
     },
     "output_device": {
         "definition": "The physical output device.",
-        "type": "string",
         "value": "Pulse Pal"
     },
     "outputs_to": {
         "definition": "The recieving end of the output channels.",
-        "type": "list",
-        "value": "Laser, Acquisition system"
+        "value": [
+            "Laser",
+            " Acquisition system"
+        ]
     },
     "pulse_frequency": {
         "unit": "Hz",
@@ -40,7 +38,6 @@
     "registered": "2017-04-04T14:35:30.968Z",
     "repetitions": {
         "definition": "The number of repetitions of the described stimulation. Defined as on time of a train of pulses",
-        "type": "int",
         "value": ""
     },
     "start_times": {
@@ -49,7 +46,6 @@
     },
     "stimulus_file_url": {
         "definition": "The URL of a an applied stimulus file. OBLIGATORY",
-        "type": "URL",
         "value": ""
     },
     "train_durations": {
@@ -58,7 +54,6 @@
     },
     "trigger_channels": {
         "definition": "If externally triggered, by which channel.",
-        "type": "list",
         "value": ""
     },
     "trigger_software": {
@@ -67,7 +62,6 @@
             "OpenEphys": "Trigger software from the Open Ephys GUI"
         },
         "definition": "What software triggers the pulsepal.",
-        "type": "string",
         "value": ""
     }
 }
