@@ -1,0 +1,34 @@
+{
+    "author": {
+        "definition": "The person, who created this protocol.",
+        "type": "person",
+        "value": ""
+    },
+    "definition": "Information about experiment",
+    "description": {
+        "definition": "Description of the experiment",
+        "type": "string",
+        "value": ""
+    },
+    "duration": {
+        "definition": "Duration of the protocol.",
+        "type": "time",
+        "value": ""
+    },
+    "identifier": "protocol_protocol",
+    "protocol_file": {
+        "definition": "Protocol File",
+        "type": "binary",
+        "value": ""
+    },
+    "protocol_file_url": {
+        "definition": "URL for protocol file",
+        "type": "URL",
+        "value": ""
+    },
+    "version": {
+        "definition": "Version of the protocol",
+        "type": "string",
+        "value": ""
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "definition": "Information about the project.",
+    "end": {
+        "definition": "The date the project ended.",
+        "type": "date",
+        "value": ""
+    },
+    "grant": {
+        "definition": "The name or identifier of the grant funding this project.",
+        "type": "string",
+        "value": ""
+    },
+    "identifier": "project_project",
+    "principle_investigator": {
+        "definition": "The person responsible for this project.",
+        "type": "person",
+        "value": ""
+    },
+    "scientist": {
+        "definition": "Additional involved person(s).",
+        "type": "person",
+        "value": ""
+    },
+    "start": {
+        "definition": "The day the project was begun.",
+        "type": "date",
+        "value": ""
+    },
+    "topic": {
+        "definition": "A descriptive text of the \n         project topic.",
+        "type": "string",
+        "value": ""
+    }
+}

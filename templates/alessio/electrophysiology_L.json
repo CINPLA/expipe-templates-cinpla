@@ -1,0 +1,67 @@
+{
+    "channel_groups": {
+        "definition": "Which channel groups are associated with this electrophysiological measurement",
+        "type": "list",
+        "value": "0,1,2,3"
+    },
+    "definition": "Describing electrophysiology in the experimental setup.",
+    "depth": {
+        "unit": "mm",
+        "value": ""
+    },
+    "depth_reference": {
+        "alternatives": {
+            "dura": true,
+            "skull": true,
+            "type": "string",
+            "value": "dura"
+        }
+    },
+    "hemisphere": {
+        "alternatives": {
+            "L": "left hemisphere",
+            "R": "right hemisphere"
+        },
+        "type": "string",
+        "value": "L"
+    },
+    "identifier": "alessio_electrophysiology_L",
+    "location": {
+        "alternatives": {
+            "HPCL": "Hippocampus left hemisphere",
+            "HPCR": "Hippocampus  right hemisphere"
+        },
+        "definition": "Describes the brain area of recording.",
+        "type": "string",
+        "value": "HPCL"
+    },
+    "notes": {
+        "type": "string",
+        "value": ""
+    },
+    "subtype": {
+        "alternatives": {
+            "dual electrode recording": true,
+            "multi electrode recording": true,
+            "single electrode recording": true
+        },
+        "definition": "Subtype of this electrophysiological experiment.",
+        "type": "string",
+        "value": "multi electrode recording"
+    },
+    "type": {
+        "alternatives": {
+            "EEG": true,
+            "EKG": true,
+            "EMG": true,
+            "ERG": true,
+            "extracellular recording": true,
+            "intracellular recording": true,
+            "loose patch": true,
+            "patch clamp": true,
+            "whole cell patch": true
+        },
+        "type": "string",
+        "value": "extracellular recording"
+    }
+}

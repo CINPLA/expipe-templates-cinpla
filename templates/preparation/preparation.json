@@ -1,0 +1,89 @@
+{
+    "anaestesia": {
+        "definition": "Is the animal under anaesthesia (true) or\n         awake (false)?",
+        "type": "boolean",
+        "value": ""
+    },
+    "anaesthetic": {
+        "definition": "The drug used for anaesthesia.",
+        "type": "string",
+        "value": ""
+    },
+    "anaesthetic_dose": {
+        "definition": "The dose of the used anaesthetic.",
+        "type": "float",
+        "value": ""
+    },
+    "bath_solution": {
+        "definition": "The solution the slice is bathed in.",
+        "type": "string",
+        "value": ""
+    },
+    "bath_temperature": {
+        "definition": "The temperature of the bath solution.",
+        "type": "float",
+        "value": ""
+    },
+    "date": {
+        "definition": "Actual preparation date.",
+        "type": "date",
+        "value": ""
+    },
+    "definition": "Description of the preparation procedure.",
+    "description": {
+        "definition": "A textual description of the preparation.",
+        "type": "string",
+        "value": ""
+    },
+    "identifier": "preparation_preparation",
+    "local_anaesthesia": {
+        "definition": "Was there some local anaesthesia applied (true or false).",
+        "type": "boolean",
+        "value": ""
+    },
+    "local_anaesthetic": {
+        "definition": "The drug that was used for local\n         anaesthesia.",
+        "type": "string",
+        "value": ""
+    },
+    "local_anaesthetic_dose": {
+        "definition": "The dose of the used local anaesthetic.",
+        "type": "float",
+        "value": ""
+    },
+    "local_anaesthetic_location": {
+        "definition": "Describes the place the local anaesthetic was applied.",
+        "type": "string",
+        "value": ""
+    },
+    "ringers_solution": {
+        "definition": "The Ringer solution used during preparation.",
+        "type": "string",
+        "value": ""
+    },
+    "slice_orientation": {
+        "definition": "The slice orientation: horizontal, sagital etc.",
+        "type": "string",
+        "value": ""
+    },
+    "slice_thickness": {
+        "definition": "The thickness of the slice.",
+        "type": "string",
+        "value": ""
+    },
+    "slicing_method": {
+        "definition": "How was the brain sliced: Microtome etc.",
+        "type": "string",
+        "value": ""
+    },
+    "solution_flow_speed": {
+        "definition": "The flow speed of the bath solution.",
+        "type": "string",
+        "value": ""
+    },
+    "type": {
+        "definition": "In vivo or in vitro?",
+        "type": "string",
+        "value": ""
+    }
+}
