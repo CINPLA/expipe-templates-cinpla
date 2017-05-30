@@ -2,6 +2,9 @@
     "definition": "Describing an optic fibre used for optogenetics.",
     "identifier": "mikkel_optic_fibre",
     "name": "OpticFibre",
+    "notes": {
+        "value": ""
+    },
     "optic_fibre_description": {
         "definition": "Description of the optic fibre.",
         "value": "Uncleaved Fiber Optic Cannula, \u00d82.5 mm Stainless Ferrule, \u00d8200 \u00b5m Core, 0.39 NA, 20 Pack"
@@ -9,7 +12,7 @@
     "optic_fibre_diameter": {
         "unit": "um",
         "value": [
-            "200"
+            200.0
         ]
     },
     "optic_fibre_manufacturer": {

@@ -29,6 +29,9 @@
         "definition": "If the subject has been labled in a specific way. The lable can be described here.",
         "value": ""
     },
+    "notes": {
+        "value": ""
+    },
     "population": {
         "definition": "The population this subject is offspring of. This may be the bee hive, the ant colony, etc.",
         "value": "locally bred"

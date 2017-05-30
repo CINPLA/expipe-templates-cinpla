@@ -18,8 +18,8 @@
     "box_size": {
         "unit": "cm",
         "value": [
-            "100",
-            " 100"
+            100.0,
+            100.0
         ]
     },
     "box_type": {
@@ -38,6 +38,9 @@
     "light_intensity": {
         "definition": "Intesity of light",
         "value": "minimal light from small lamp and desktop computer screen"
+    },
+    "notes": {
+        "value": ""
     },
     "position_reference": {
         "definition": "Position reference of the room",

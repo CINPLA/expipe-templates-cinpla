@@ -29,15 +29,16 @@
         "definition": "The model name of this hardware item.",
         "value": ""
     },
+    "notes": {
+        "value": ""
+    },
     "owner": {
         "definition": "Who's the owner of the device.",
         "value": ""
     },
     "sample_rate": {
         "unit": "Hz",
-        "value": [
-            ""
-        ]
+        "value": ""
     },
     "serial_no": {
         "definition": "The device's serial number.",

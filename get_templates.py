@@ -7,7 +7,7 @@ overwrite = True
 
 base_dir = op.join(op.abspath(op.dirname(op.expanduser(__file__))), 'templates')
 
-templates = expipe.io.core.db.child("templates").get(expipe.io.core.user["idToken"]).val()
+templates = expipe.io.core.FirebaseBackend("/templates").get()
 for template, val in templates.items():
     identifier = val.get('identifier')
     if identifier is None:

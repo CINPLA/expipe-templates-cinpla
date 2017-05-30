@@ -2,10 +2,10 @@
     "channel_groups": {
         "definition": "Which channel groups are associated with this electrophysiological measurement",
         "value": [
-            "0",
-            "1",
-            "2",
-            "3"
+            0.0,
+            1.0,
+            2.0,
+            3.0
         ]
     },
     "definition": "Describing electrophysiology in the experimental setup.",
@@ -35,6 +35,9 @@
         },
         "definition": "Describes the brain area of recording.",
         "value": "HPCL"
+    },
+    "notes": {
+        "value": ""
     },
     "subtype": {
         "alternatives": {

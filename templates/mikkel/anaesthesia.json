@@ -11,5 +11,8 @@
         "definition": "A textual description of the preparation.",
         "value": "Anaesthetics"
     },
-    "identifier": "mikkel_anaesthesia"
+    "identifier": "mikkel_anaesthesia",
+    "notes": {
+        "value": ""
+    }
 }

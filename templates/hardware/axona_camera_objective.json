@@ -1,9 +1,7 @@
 {
     "aperture": {
         "unit": "dimensionless",
-        "value": [
-            ""
-        ]
+        "value": ""
     },
     "definition": "Describing the objective used on the tracking camera",
     "description": {
@@ -12,15 +10,11 @@
     },
     "focal_length": {
         "unit": "dimensionless",
-        "value": [
-            ""
-        ]
+        "value": ""
     },
     "focal_length_range": {
         "unit": "dimensionless",
-        "value": [
-            ""
-        ]
+        "value": ""
     },
     "identifier": "hardware_axona_camera_objective",
     "inventory_no": {
@@ -33,9 +27,7 @@
     },
     "maximum_aperture": {
         "unit": "dimensionless",
-        "value": [
-            ""
-        ]
+        "value": ""
     },
     "model": {
         "definition": "The objective model name.",
@@ -49,11 +41,12 @@
         "definition": "The type of mount.",
         "value": ""
     },
+    "notes": {
+        "value": ""
+    },
     "numerical_aperture": {
         "unit": "dimensionless",
-        "value": [
-            ""
-        ]
+        "value": ""
     },
     "owner": {
         "definition": "The owner of this device.",
@@ -65,21 +58,15 @@
     },
     "transmission_lower_bound": {
         "unit": "dimensionless",
-        "value": [
-            ""
-        ]
+        "value": ""
     },
     "transmission_range": {
         "unit": "dimensionless",
-        "value": [
-            ""
-        ]
+        "value": ""
     },
     "transmission_upper_bound": {
         "unit": "dimensionless",
-        "value": [
-            ""
-        ]
+        "value": ""
     },
     "type": {
         "alternatives": {

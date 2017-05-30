@@ -5,11 +5,15 @@
         "unit": "s",
         "value": ""
     },
+    "notes": {
+        "definition": "Notes specific for this stimulus session.",
+        "value": ""
+    },
     "output_channels": {
         "definition": "The physical output channels used.",
         "value": [
-            "1",
-            " 4"
+            1.0,
+            4.0
         ]
     },
     "output_device": {

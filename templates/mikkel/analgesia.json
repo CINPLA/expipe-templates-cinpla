@@ -12,5 +12,8 @@
         "definition": "A textual description of the preparation.",
         "value": "Analgesics"
     },
-    "identifier": "mikkel_analgesia"
+    "identifier": "mikkel_analgesia",
+    "notes": {
+        "value": ""
+    }
 }

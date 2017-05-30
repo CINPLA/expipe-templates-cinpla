@@ -2,7 +2,7 @@
     "angle": {
         "unit": "deg",
         "value": [
-            "15"
+            15.0
         ]
     },
     "definition": "Describing an implantation procedure of a micro drive.",
@@ -19,11 +19,14 @@
         "definition": "Describes the brain area of recording. MS: Medial Septum, MECR: Medial Entorhinal Cortex Right hemisphere, MECL: Medial Entorhinal Cortex Left hemisphere, ",
         "value": "MECL"
     },
+    "notes": {
+        "value": ""
+    },
     "position": {
         "unit": "mm",
         "value": [
-            "4.5",
-            " 0.4",
+            4.5,
+            0.4,
             " z"
         ]
     },

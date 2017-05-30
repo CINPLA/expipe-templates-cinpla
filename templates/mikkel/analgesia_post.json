@@ -5,6 +5,9 @@
         "value": "Analgesics"
     },
     "identifier": "mikkel_analgesia_post",
+    "notes": {
+        "value": ""
+    },
     "post_op_analgesic": {
         "definition": "The drug used for post surgery analgesia.",
         "value": "Rimadyl"

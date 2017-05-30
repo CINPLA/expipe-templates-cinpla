@@ -25,6 +25,9 @@
         "definition": "The model name of this hardware item.",
         "value": "pulse pal version 1"
     },
+    "notes": {
+        "value": ""
+    },
     "owner": {
         "definition": "Who's the owner of the device.",
         "value": "Marianne Fyhn, Torkel Hafting"

@@ -2,7 +2,7 @@
     "angle": {
         "unit": "deg",
         "value": [
-            "0"
+            0.0
         ]
     },
     "definition": "Describing an injection procedure e.g. injection of virus.",
@@ -13,9 +13,7 @@
     "flow": {
         "definition": "The angle of the implant, assuming leveled bregma and lambda, 0 degrees is vertical implantation",
         "unit": "ul/min",
-        "value": [
-            "0.05"
-        ]
+        "value": "0.05"
     },
     "identifier": "mikkel_injection_1",
     "injection_substance": {
@@ -42,7 +40,7 @@
     "injection_substance_storage_temp": {
         "unit": "degC",
         "value": [
-            "-80"
+            -80.0
         ]
     },
     "location": {
@@ -54,12 +52,15 @@
         "definition": "Describes the brain area of recording. MS: Medial Septum, MECR: Medial Entorhinal Cortex Right hemisphere, MECL: Medial Entorhinal Cortex Left hemisphere, ",
         "value": "MS"
     },
+    "notes": {
+        "value": "1 minute waiting before injection, 8 minute waiting after"
+    },
     "position": {
         "unit": "mm",
         "value": [
-            "0.0",
-            " 0.0",
-            " 7.3"
+            0.0,
+            0.0,
+            7.3
         ]
     },
     "position_reference": {
@@ -85,7 +86,7 @@
     "syringe_needle_diameter": {
         "unit": "um",
         "value": [
-            "100"
+            100.0
         ]
     }
 }

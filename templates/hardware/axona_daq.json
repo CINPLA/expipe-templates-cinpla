@@ -24,11 +24,14 @@
     "max_sample_rate": {
         "unit": "Hz",
         "value": [
-            "48000"
+            48000.0
         ]
     },
     "model": {
         "definition": "The model name of this hardware item.",
+        "value": ""
+    },
+    "notes": {
         "value": ""
     },
     "owner": {

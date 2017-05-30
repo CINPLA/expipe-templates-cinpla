@@ -22,6 +22,9 @@
         "definition": "Intesity of light during light phase.",
         "value": "> 100 lux"
     },
+    "notes": {
+        "value": ""
+    },
     "room_temperature": {
         "value": ""
     },

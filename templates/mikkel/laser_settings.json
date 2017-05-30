@@ -4,9 +4,7 @@
         "measure_device": "",
         "uncertainty": "",
         "unit": "",
-        "value": [
-            ""
-        ]
+        "value": ""
     },
     "intensity_date_time": {
         "value": ""
@@ -30,7 +28,7 @@
     "wavelength": {
         "unit": "nm",
         "value": [
-            "473"
+            473.0
         ]
     }
 }
