@@ -5,8 +5,8 @@ import json
 import quantities as pq
 
 ########################### DANGER DELETES ALL PAR.TEMPLATES #######################
-expipe.core.FirebaseBackend("/templates").set({})
-expipe.core.FirebaseBackend("/templates_contents").set({})
+# expipe.core.FirebaseBackend("/templates").set({})
+# expipe.core.FirebaseBackend("/templates_contents").set({})
 ################################################################################
 
 for root, dirs, files in os.walk('templates'):
