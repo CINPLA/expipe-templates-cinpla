@@ -1,0 +1,12 @@
+description:
+  value: ''
+definition: The environment conditions for the experiment.
+name: environment_environment
+air_humidity:
+  value: ''
+  definition: The air humidity in %..
+identifier: environment_environment
+room_temperature:
+  value: ''
+weather:
+  value: ''

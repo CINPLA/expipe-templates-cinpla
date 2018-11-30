@@ -1,0 +1,12 @@
+name: ida_mros_moving_platform
+identifier: ida_mros_moving_platform
+definition: Describes the properties of the moving platform.
+fixed_angle:
+  value: ''
+  unit: deg
+condition:
+  alternatives:
+  - fixed
+  - moving
+  value: ''
+  definition: Describes whether the platform is fixed or moving.

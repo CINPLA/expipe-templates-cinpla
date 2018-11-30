@@ -1,0 +1,24 @@
+intensity_info:
+  value: ''
+wavelength:
+  value:
+  - 473.0
+  unit: nm
+intensity_date_time:
+  value: ''
+setting:
+  value: ''
+  definition: The actual manual laser intensity setting.
+laser_device:
+  value: blue laser
+  definition: The hardware generating the laser pulse.
+intensity:
+  uncertainty: ''
+  value: ''
+  unit: ''
+  measure_device: ''
+intensity_file_url:
+  value: ''
+  definition: The URL of a file containing the intensity measure. OBLIGATORY
+name: laser_settings
+identifier: hardware_laser_settings

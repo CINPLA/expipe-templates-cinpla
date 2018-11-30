@@ -1,0 +1,25 @@
+ventilation:
+  value: 5 - 20 pr. hour.
+  definition: Ventilation rate.
+light_cycle_duration:
+  value: 12 hours
+  definition: The duration with light on.
+light_intensity:
+  value: '> 100 lux'
+  definition: Intesity of light during light phase.
+room_temperature:
+  value: ''
+description:
+  value: Housing environment.
+definition: Describing the housing environment of the housing.
+name: environment_rat_housing
+air_humidity:
+  value:
+  - 55 +- 10
+  unit: '%'
+identifier: environment_rat_housing
+notes:
+  value: ''
+light_cycle:
+  value: 10:00 p.m. - 10:00 a.m.
+  definition: The time when is swiched on and off.

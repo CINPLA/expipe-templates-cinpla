@@ -1,0 +1,14 @@
+analgesic:
+  value: Temgesic
+  definition: The drug used for analgesia.
+definition: Analgesia , during surgery.
+description:
+  value: Analgesics
+  definition: A textual description of the preparation.
+notes:
+  value: ''
+name: analgesia
+identifier: analgesia
+analgesic_dose:
+  value: 0.2
+  unit: mL

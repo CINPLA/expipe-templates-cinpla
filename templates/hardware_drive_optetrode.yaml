@@ -1,0 +1,19 @@
+manufacturer:
+  value: Axona made the chassie and tetrodes and optic fibre is assembled on site
+  definition: The manufacturer of the drive e.g. ordered from a company.
+registration_type:
+  value: extracellular
+  definition: The type of registration.
+description:
+  value: Optetrode - combined tetrodes and optic fibre in a micro drive.
+definition: Describing an optetrode micro drive.
+name: hardware_drive_optetrode
+identifier: hardware_drive_optetrode
+optic_fibre_count:
+  value: 1
+  definition: Number of optic fibres in drive.
+notes:
+  value: ''
+tetrode_count:
+  value: 4
+  definition: Number of tetrodes in drive.

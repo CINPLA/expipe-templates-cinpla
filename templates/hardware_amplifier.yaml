@@ -1,0 +1,57 @@
+type:
+  value: ''
+  definition: The type of amplifier. E.g. extracellular, intracellular amplifier etc.
+owner:
+  value: ''
+  definition: Who's the owner of the device.
+manufacturer:
+  value: ''
+  definition: The Manufacturer of this hardware item.
+operation_mode:
+  alternatives:
+  - Bridged
+  - Discontinuous
+  value: ''
+  definition: The amplifier mode.
+measurement_type:
+  alternatives:
+  - Bridge
+  - CC
+  - Dynamic Clamp
+  - VC
+  - VCcCC
+  value: ''
+  definition: The amplifier mode. Measurement in Voltage clamp controlled current
+    clamp -mode.
+identifier: hardware_amplifier
+lowpass_cutoff:
+  value: ''
+  definition: The cutoff frequency of the amplifier's lowpass filter.
+gain:
+  value: ''
+  definition: The amplifier gain.
+inventory_no:
+  value: ''
+  definition: The inventory number of the device.
+model:
+  value: ''
+  definition: The model name of this hardware item.
+name: hardware_amplifier
+description:
+  value: ''
+  definition: A description of this hardware item.
+definition: The amplifier section defines elements that can be used to describe amplifier
+  properties and settings.
+switching_frequency:
+  value: ''
+  definition: The amplifier switching frequency. This property is only meaningful
+    in Discontinuos operation modes.
+duty_cycle:
+  value: ''
+  definition: The amplifier duty cylce if in disconinuous mode (e.g. 0.25, 0.5).
+highpass_cutoff:
+  value: ''
+  definition: The cutoff frequency of the amplifier's highpass filter.
+serial_no:
+  value: ''
+  definition: The device's serial number.

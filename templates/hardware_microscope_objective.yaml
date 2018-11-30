@@ -1,0 +1,42 @@
+type:
+  alternatives:
+  - dry
+  - oil immersion
+  - water immersion
+  value: ''
+  definition: The type of objective used in a microscope. (e.g. water immersion, oil
+    immersion, dry.)
+manufacturer:
+  value: ''
+  definition: The Manufacturer providing the objective.
+identifier: hardware_microscope_objective
+owner:
+  value: ''
+  definition: The owner of this device.
+transmission_lower_bound:
+  value: ''
+  definition: The lower bound of transmission.
+magnification:
+  value: ''
+  definition: The magnification of the objective.
+inventory_no:
+  value: ''
+  definition: The inventory number of the device.
+model:
+  value: ''
+  definition: The objective model name.
+transmission_upper_bound:
+  value: ''
+  definition: The upper bound of transmission.
+numerical_aperture:
+  value: ''
+  definition: The numerical aperture (N.A.) of the objective.
+description:
+  value: ''
+  definition: A description of this hardware item.
+definition: This section contains properties that describe the objective used in a
+  microscope.
+name: hardware_microscope_objective
+transmission_range:
+  value: ''
+  definition: The transmission range (min - max).

@@ -1,0 +1,35 @@
+calibration:
+  value: ''
+  definition: The calibration procedure.
+manufacturer:
+  value: ''
+  definition: The Manufacturer of this hardware item.
+identifier: hardware_axona_tracker
+owner:
+  value: ''
+  definition: Who's the owner of the device.
+notes:
+  value: ''
+inventory_no:
+  value: ''
+  definition: The inventory number of the device.
+model:
+  value: ''
+  definition: The model name of this hardware item.
+comment:
+  value: ''
+  definition: Space for some comments.
+serial_no:
+  value: ''
+  definition: The device's serial number.
+description:
+  value: ''
+  definition: A description of this hardware item.
+definition: Describing the tracking setup with Axona
+name: hardware_axona_tracker
+filter:
+  value: ''
+  definition: The kind of filter applied to the data.
+sample_rate:
+  value: ''
+  unit: Hz

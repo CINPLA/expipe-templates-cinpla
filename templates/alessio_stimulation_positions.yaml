@@ -1,0 +1,7 @@
+name: alessio_stimulation_positions
+circles:
+  value: ''
+  unit: '[0, 1]'
+  definition: 'Circles information: x, y, radius, and on/off'
+identifier: alessio_stimulation_positions
+definition: Describing the closed-loop position stimulation.

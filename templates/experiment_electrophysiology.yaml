@@ -1,0 +1,23 @@
+name: experiment_electrophysiology
+identifier: experiment_electrophysiology
+subtype:
+  alternatives:
+  - dual electrode recording
+  - multi electrode recording
+  - single electrode recording
+  value: ''
+  definition: Subtype of this electrophysiological experiment.
+type:
+  alternatives:
+  - EEG
+  - EKG
+  - EMG
+  - ERG
+  - extracellular recording
+  - intracellular recording
+  - loose patch
+  - patch clamp
+  - whole cell patch
+  value: ''
+  definition: Intracellular recording of single cell responses with sharp microelectrodes.
+definition: Properties for describing an electrophysiological experiment.

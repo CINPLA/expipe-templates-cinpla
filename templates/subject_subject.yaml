@@ -1,0 +1,59 @@
+population:
+  value: ''
+  definition: "The population this subject is offspring\n         of. This may be\
+    \ the bee hive, the ant colony,\n         etc."
+gender:
+  value: ''
+  definition: Male or female?
+weight:
+  value: ''
+  definition: The weigth of this subject.
+trivial_name:
+  value: ''
+  definition: "The trivial name of the species like\n         Honeybee, Human."
+age:
+  value: ''
+  definition: "The age of the subject since birth. E.g. P19,\n         or 5 days."
+identifier: subject_subject
+developmental_stage:
+  value: ''
+  definition: The developemtal stage of the subject. E.g. "embroyonal", "adult", "larval"
+    etc.
+size:
+  value: ''
+  definition: The size of the subject. This value may be used context dependent. Size
+    could be length for a fish, heigth for a human subject, or shoulder height for
+    a horse etc...
+health_status:
+  value: ''
+  definition: "Information about the health status of this\n         subject."
+strain:
+  value: ''
+  definition: "The strain the subject was taken from. E.g. a\n         specific genetic\
+    \ variation etc."
+comment:
+  value: ''
+  definition: "A general comment on a specific\n         subject."
+label:
+  value: ''
+  definition: "If the subject has been labled in a specific\n         way. The lable\
+    \ can be described here."
+genus:
+  value: ''
+  definition: "The Genus of the studied\n         subject."
+definition: "The investigated experimental subject (animal or person).\n      May\
+  \ contain the Cell and Preparation sections as subsections."
+name: subject_subject
+cell_line:
+  value: ''
+  definition: .
+birthday:
+  value: ''
+  definition: "The birthday. Age can be inferred from the\n         date of recording."
+conact_information:
+  value: ''
+  definition: How to get in contact with this subject.
+species:
+  value: ''
+  definition: "The scientific name of the species e.g. Apis\n         mellifera, Homo\
+    \ sapiens."

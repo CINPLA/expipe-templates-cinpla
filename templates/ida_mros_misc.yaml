@@ -1,0 +1,16 @@
+animal_state:
+  alternatives:
+  - sessile
+  - moving
+  value: ''
+  definition: Sessile or moving state.
+definition: Miscellaneous properties of mros session.
+name: ida_mros_misc
+identifier: ida_mros_misc
+dark:
+  alternatives:
+  - y
+  - n
+  value: ''
+  definition: Describes whether the session was performed in darkness.
+num_screens: ''

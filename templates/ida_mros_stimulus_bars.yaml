@@ -1,0 +1,52 @@
+modality:
+  value: ''
+  definition: The stimulus modality like acoustic, haptic, visual etc.
+orientation:
+  count: ''
+  start: ''
+  stop: ''
+  definition: The orientation of the bar in degrees.
+position_reference:
+  alternatives:
+  - bottom-right
+  - center
+  - top-left
+  value: ''
+  definition: By default stimulus positions are specified by the coordinates of the
+    top-left corner (or of the bounding box). Use this property for other definitions.
+identifier: ida_mros_stimulus_bars
+drifting_velocity:
+  value: ''
+  definition: In case of a constantly moving bar, the velocity
+temporal_offset:
+  value: ''
+  definition: The temporal offset (with respect to the begin of the recorded trial)
+    with which this stimulus was presented.
+contrast:
+  value: ''
+  definition: The contrast of the grating stimulus.
+output_channel:
+  value: ''
+  definition: The physical output device (e.g. an analog output channel, a monitor
+    screen, the same loudspeaker, etc.). This information can be used to explicitly
+    express that several stimuli (that share the same OutputChannel) are jointly presented.
+position:
+  value: ''
+  definition: The position of the stimulus on e.g the screen. Specified as a 2-tuple
+    (x;y). By default this position refers to the top-left corner of the object or
+    its bounding box.
+intensity:
+  value: ''
+  definition: The mean intensity of the grating stimulus.
+spatial_extent:
+  value: ''
+  definition: The spatial extend of the presented stimulus (width;height) e.g. (1024;768).
+function:
+  value: ''
+  definition: The function of the described stimulus. E.g. if the white noise constituted
+    the carrier.
+duration:
+  value: ''
+  definition: The duration of the stimulus in seconds.
+name: ida_mros_stimulus_bars
+definition: Properties to describe moving bar stimuli.

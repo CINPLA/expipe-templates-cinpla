@@ -1,0 +1,89 @@
+position:
+  value:
+  - x
+  - y
+  - z
+  unit: mm
+location:
+  alternatives:
+    v1br: Primary visual cortex, binocular area, right hemisphere
+    v1mr: Primary visual cortex, monocular area, right hemisphere
+  value: ''
+  definition: Describes the brain area of implantation
+description:
+  value: Implantation of a flexDrive in the Visual Cortex.
+definition: Describing an implantation procedure of a flexDrive.
+position_reference:
+  alternatives:
+  - bregma
+  - dura
+  - lambda
+  - longitudinal suture
+  - skull
+  - transverse sinus
+  value:
+  - longitudinal suture
+  - lambda
+  - dura
+  definition: By default position are specified by the coordinates of skull. Use this
+    property for other definitions.
+name: malin_implant_flex_v1r
+electrophysiology:
+  type:
+    alternatives:
+    - EEG
+    - EKG
+    - EMG
+    - ERG
+    - extracellular recording
+    - intracellular recording
+    - loose patch
+    - patch clamp
+    - whole cell patch
+    value: extracellular recording
+  channel_groups:
+    value:
+    - 0.0
+    - 1.0
+    - 2.0
+    - 3.0
+    - 4.0
+    - 5.0
+    - 6.0
+    - 7.0
+    - 8.0
+    - 9.0
+    - 10.0
+    - 11.0
+    - 12.0
+    - 13.0
+    - 14.0
+    - 15.0
+    definition: Which channel groups are associated with this electrophysiological
+      measurement
+  subtype:
+    alternatives:
+    - dual electrode recording
+    - multi electrode recording
+    - single electrode recording
+    value: multi electrode recording
+    definition: Subtype of this electrophysiological experiment.
+  ref_electrode_location:
+    alternatives:
+    - Posterior to bregma
+    value: Posterior to bregma
+    definition: Describes the location of the reference electrode.
+  definition: Describing electrophysiology in the expirimental setup.
+angle:
+  value: ''
+  unit: deg
+identifier: malin_implant_flex_v1r
+notes:
+  value: Indexes refer to x,y,z respectively, each position refer to one channel group
+    (tetrode)
+hemisphere:
+  alternatives:
+    C, center: between hemispheres
+    L, left: left hemisphere
+    R, right: right hemisphere
+  value: R

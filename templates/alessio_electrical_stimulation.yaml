@@ -1,0 +1,14 @@
+intensity:
+  value: ''
+  definition: The intensity of each phase.
+pulse: balanced biphasic
+description: Constant current electrical stimulation with electrodes
+name: alessio_electrical_stimulation
+modality: electrical
+active-electrodes:
+  value: ''
+  definition: The list of active electrodes.
+identifier: alessio_electrical_stimulation
+phase:
+  value: ''
+  definition: The phase of each pulse.

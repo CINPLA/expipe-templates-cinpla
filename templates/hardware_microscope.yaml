@@ -1,0 +1,25 @@
+inventory_no:
+  value: ''
+  definition: The inventory number of the device.
+model:
+  value: ''
+  definition: The model name of this hardware item.
+manufacturer:
+  value: ''
+  definition: The Manufacturer of this hardware item.
+serial_no:
+  value: ''
+  definition: The device's serial number.
+description:
+  value: ''
+  definition: A description of this hardware item.
+definition: The Microscope section describes the properties of the used microscope.
+name: hardware_microscope
+identifier: hardware_microscope
+owner:
+  value: ''
+  definition: Who's the owner of the device.
+type:
+  value: ''
+  definition: 'The microcope type: widefield, two-photon, multi-photon, confocal,
+    etc...'

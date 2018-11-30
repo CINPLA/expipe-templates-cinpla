@@ -1,0 +1,67 @@
+type:
+  value: ''
+  definition: The type of grating used. Commonly either Sinewave or Squarewave gratings
+    are used.
+orientation:
+  value: 0-360
+  definition: The orientation of the grating in degrees.
+grating_type:
+  value: sinewave
+  definition: The type of  grating, i.e. 'sinewave' or 'sqaurewave'.
+name: malin_grating_mouse
+position_reference:
+  alternatives:
+  - bottom-right
+  - center
+  - top-left
+  value: ''
+  definition: By default stimulus positions are specified by the coordinates of the
+    top-left corner (or of the bounding box). Use this property for other definitions.
+spatial_wavelength:
+  value: ''
+  definition: The spatial wavelength of the  grating.
+identifier: malin_grating_mouse
+drifting_velocity:
+  value: '2'
+  unit: Hz
+temporal_offset:
+  value: ''
+  definition: "The temporal offset (with respect to the begin of the recorded trial)\
+    \ with which this stimulus was\tpresented."
+spatial_frequency:
+  value: '0.04'
+  definition: the spatial frequency of the grating.
+contrast:
+  value: 80 %
+  definition: The contrast of the grating stimulus.
+output_channel:
+  value: monitor
+  definition: "The physical output device (e.g. an analog output channel, a monitor\
+    \ screen, the same loudspeaker, etc.). This information can be used to explicitely\
+    \ express that several stimuli (that share the same OutputChannel) are jointly\t\
+    presented."
+position:
+  value: ''
+  definition: The position of the stimulus on e.g the screen. Specified as a 2-tuple
+    (x;y). By default this position refers to the top-left corner of the object or
+    its bounding box.
+intensity:
+  value: ''
+  definition: The mean intensity of the grating stimulus.
+duration_stim:
+  value: ''
+  unit: s
+function:
+  value: ''
+  definition: The function of the described stimulus. E.g. if the white noise constituted
+    the carrier.
+definition: Properties to describe Grating stimuli.
+modality:
+  value: visual
+  definition: The stimulus modality like acoustic, haptic, visual etc.
+spatial_extent:
+  value: ''
+  definition: The spatial extend of the presented stimulus (width;height) e.g. (1024;768).
+duration_mlg:
+  value: ''
+  unit: s

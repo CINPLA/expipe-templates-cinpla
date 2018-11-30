@@ -1,0 +1,72 @@
+position:
+  value:
+  - x
+  - y
+  - z
+  unit: mm
+location:
+  alternatives:
+    v1br: Primary visual cortex, binocular area, right hemisphere
+    v2br: Secondary visual cortex, lateral area, right hemisphere
+    v2mr: Secondary visual cortex, medial area, right hemisphere
+    v1mr: Primary visual cortex, monocular area, right hemisphere
+  value: ''
+  definition: Describes the brain area of insertion
+description:
+  value: Insertion of a probe in the Visual Cortex.
+definition: Describing an insertion procedure of a probe.
+position_reference:
+  alternatives:
+  - bregma
+  - dura
+  - lambda
+  - longitudinal suture
+  - skull
+  - transverse sinus
+  value: lambda
+  definition: By default position are specified by the coordinates of skull. Use this
+    property for other definitions.
+name: malin_implant_probe_vr
+electrophysiology:
+  type:
+    alternatives:
+    - EEG
+    - EKG
+    - EMG
+    - ERG
+    - extracellular recording
+    - intracellular recording
+    - loose patch
+    - patch clamp
+    - whole cell patch
+    value: extracellular recording
+  channel_groups:
+    value:
+    - 1.0
+    definition: Which channel groups are associated with this electrophysiological
+      procedure
+  subtype:
+    alternatives:
+    - dual electrode recording
+    - multi electrode recording
+    - single electrode recording
+    value: multi electrode recording
+    definition: Subtype of this electrophysiological experiment.
+  ref_electrode_location:
+    alternatives:
+    - Posterior to bregma
+    value: Posterior to bregma, right hemisphere
+    definition: Describes the location of the reference electrode.
+  definition: Describing electrophysiology in the expirimental setup.
+angle:
+  value: ''
+  unit: deg
+identifier: malin_implant_probe_vr
+notes:
+  value: Indexes refer to x,y,z respectively
+hemisphere:
+  alternatives:
+    C, center: between hemispheres
+    L, left: left hemisphere
+    R, right: right hemisphere
+  value: R

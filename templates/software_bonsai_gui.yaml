@@ -1,0 +1,35 @@
+licence:
+  value: ''
+  definition: License type
+owner:
+  value: ''
+  definition: The owner of the software.
+version:
+  value: 2.3.0
+  definition: Version of the software.
+licence_expiration:
+  value: ''
+  definition: The end date of time limited licence.
+identifier: software_bonsai_gui
+licence_count:
+  value: ''
+  definition: Number of the software's licence.
+licence_duration:
+  value: ''
+  definition: Duration of the licence for the software.
+description:
+  value: Bonsai is open-source software for processing heterogeneous streams of data.
+    It is ideal for real-time video analysis, but it can simultaneously control your
+    experiments and/or acquire data from the Open Ephys acquisition board.
+  definition: The descrisption of the software.
+definition: This is a software section .
+name: software_bonsai_gui
+licence_start:
+  value: ''
+  definition: The start date of time limited licence.
+distribution:
+  value: ''
+  definition: Distribution type
+developer:
+  value: Gonçalo Lopes at the Champalimaud Centre for the Unknown
+  definition: The developer or the developers firm.

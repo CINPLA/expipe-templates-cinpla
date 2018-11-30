@@ -1,0 +1,9 @@
+adjustment:
+  value: ''
+  unit: dimensionless
+depth:
+  value: ''
+  unit: dimensionless
+date: dd.mm.yyyy:HH:MM
+identifier: protocol_depth_adjustment
+experimenter: ''

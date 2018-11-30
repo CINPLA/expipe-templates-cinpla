@@ -1,0 +1,43 @@
+position:
+  value:
+  - '-4.0'
+  - '3.1'
+  - ' z'
+  unit: mm
+location:
+  alternatives:
+  - HPCL
+  - HPCR
+  value: HPCR
+  definition: 'Describes the brain area of recording. HPCR: Hippocampus Right hemisphere,
+    HPCL: Hippocampus  Left hemisphere, '
+ref_electrode_location:
+  alternatives:
+  - Anterior to bregma
+  value: Anterior to bregma, right hemisphere
+  definition: Describes the location of the reference electrode.
+description:
+  value: Implantation of tetrodes in CA1 of Hippocampus.
+definition: Describing an implantation procedure of a micro drive.
+position_reference:
+  alternatives:
+  - bregma
+  - dura
+  - lambda
+  - longitudinal suture
+  - skull
+  - transverse sinus
+  value:
+  - lambda
+  - ' transverse sinus'
+  - ' dura'
+  definition: By default position are specified by the coordinates of skull. Use this
+    property for other definitions.
+name: alessio_implant_drive_L
+identifier: alessio_implant_drive_L
+angle:
+  value:
+  - 0.0
+  unit: deg
+notes:
+  value: ''

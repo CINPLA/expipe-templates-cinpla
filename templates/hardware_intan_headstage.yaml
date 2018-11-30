@@ -1,0 +1,30 @@
+inventory_no:
+  value: ''
+  definition: The inventory number of the device.
+model:
+  alternatives:
+  - RHD2116
+  - RHD2132
+  - RHS2116
+  - RHS2132
+  value: ''
+  definition: The model name of this hardware item.
+manufacturer:
+  value: Intan
+  definition: The Manufacturer of this hardware item.
+serial_no:
+  value: ''
+  definition: The device's serial number.
+description:
+  value: Headstage
+  definition: A description of this hardware item.
+definition: This is a generic hardware section meant to take information of items
+  for which no specific terminology exists.
+name: hardware_intan_headstage
+identifier: hardware_intan_headstage
+owner:
+  value: Fyhn-Hafting
+  definition: Who's the owner of the device.
+type:
+  value: extracellular
+  definition: The type of amplifier. E.g. extracellular, intracellular amplifier etc.

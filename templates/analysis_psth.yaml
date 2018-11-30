@@ -1,0 +1,83 @@
+code_file:
+  value: ''
+  definition: "The program code to analyse the data can be transferred using this\
+    \ property. \n         Using it will blow up the the size of the metadatafile\
+    \ and we recommend to rather define the URL of underlying code file."
+date:
+  value: ''
+  definition: The date of analysis.
+commandline_call:
+  value: ''
+  definition: The command used to execute the analysis including the command line
+    parameter.
+dataset_file_url:
+  value: ''
+  definition: The URL of a analysed datasetFile.
+window_type:
+  alternatives:
+  - alpha
+  - gaussian
+  - rectangular
+  value: ''
+  definition: The kind of windowing function used to cerate the PSTH.
+dataset_file:
+  value: ''
+  definition: "The data analysed ion the described way can be transferred using this\
+    \ property. \n         Using it will blow up the the size of the metadatafile\
+    \ and we recommend to rather define the URL of underlying dataset file."
+result_file:
+  value: ''
+  definition: "The results of this analysis can be transferred using this property.\
+    \ \n         Using it willblow up the the size of the metadatafile and we recommend\
+    \ to rather define the URL of the results file."
+name: analysis_psth
+paper_url:
+  value: ''
+  definition: If the results of this analysis have been published the URL of the document
+    can be given here
+config_file:
+  value: ''
+  definition: "The configurations used to analyse the data can be transferred using\
+    \ this property. \n         Using it will blow up the the size of the metadatafile\
+    \ and we recommend to rather define the URL of underlying configuration file."
+code_revision:
+  value: ''
+  definition: If the analysis code is under version control the revision number can
+    be specified using this property.
+config_file_url:
+  value: ''
+  definition: The URL of the used configuration file used to run the analysis.
+author:
+  value: ''
+  definition: The name of the person who did the analysis, e.g. 'John Doe' or 'Doe,
+    John'
+identifier: analysis_psth
+method:
+  alternatives:
+  - discrete window
+  - instantaneous spike rate
+  - sliding window
+  value: ''
+  definition: The method used for creating the PSTH.
+comment:
+  value: ''
+  definition: Specific comments on this analysis.
+paper_doi:
+  value: ''
+  definition: If the results of this analysis have been published one can store the
+    doi of the paper.
+description:
+  value: ''
+  definition: A general description of the analysis.
+definition: An Analysis-type section to describe an PSTH.
+result_file_url:
+  value: ''
+  definition: The URL of a results file.
+result_figure:
+  value: ''
+  definition: "A figure showing the results. This property is meant to strore the\
+    \ real figure content. \n         This will blow up the the size of the metadatafile\
+    \ and we recommend to rather define the URL of the figure."
+code_file_url:
+  value: ''
+  definition: The URL of the applied piece of program code to actually do the analysis.

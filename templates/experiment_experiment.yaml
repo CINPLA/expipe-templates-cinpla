@@ -1,0 +1,25 @@
+type:
+  alternatives:
+  - behavior
+  - electrophysiology
+  - imaging
+  - psychophysics
+  - simulation
+  value: ''
+  definition: The type of experiment.
+project_name:
+  value: ''
+  definition: "The name of the project this experiment belongs\n         to."
+project_id:
+  value: ''
+  definition: "The ID of the project this experiment belongs\n         to."
+description:
+  value: ''
+  definition: "A description of the\n         experiment."
+definition: "Specification of an experiment. The Experiment is\n      part of a Project\
+  \ and the recorded data for a specific\n      Experiment are found in Datasets.\
+  \ Possible subsections are, for\n      example, Dataset and Stimulus."
+name: experiment_experiment
+identifier: experiment_experiment
+subtype:
+  value: ''

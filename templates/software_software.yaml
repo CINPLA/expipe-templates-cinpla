@@ -1,0 +1,33 @@
+licence:
+  value: ''
+  definition: License type
+owner:
+  value: ''
+  definition: The owner of the software.
+version:
+  value: ''
+  definition: Version of the software.
+licence_expiration:
+  value: ''
+  definition: The end date of time limited licence.
+identifier: software_software
+licence_count:
+  value: ''
+  definition: Number of the software's licence.
+decsription:
+  value: ''
+  definition: The descrisption of the software.
+licence_duration:
+  value: ''
+  definition: Duration of the licece for the software.
+definition: This is a software section .
+name: software_software
+licence_start:
+  value: ''
+  definition: The start date of time limited licence.
+distribution:
+  value: ''
+  definition: Distribution type
+developer:
+  value: ''
+  definition: The developer or the developers firm.

@@ -1,0 +1,66 @@
+emission_filter_upper_bound:
+  value: ''
+  definition: The upper bound of of the wavelength transmitted by the excitation filter.
+emission_filter_model:
+  value: ''
+  definition: The model of excitation filter.
+emission_filter_manufacturer:
+  value: ''
+  definition: The Manufacturer providing the  of the excitation filter.
+owner:
+  value: ''
+  definition: The inventory number of the FilterSet.
+beamsplitter_type:
+  value: ''
+  definition: The type of beamsplitter used.
+excitation_filter_manufacturer:
+  value: ''
+  definition: The Manufacturer providing the  of the excitation filter.
+beamsplitter_model:
+  value: ''
+  definition: The beam splitter model name.
+emission_filter_wavelength:
+  value: ''
+  definition: The wavelength of the excitation filter.
+beamsplitter_wavelength:
+  value: ''
+  definition: The wavelength at which the beam splitter separates the beams.
+emission_filter_passband_transmission:
+  value: ''
+  definition: The transmission in the passband. Given in %.
+beamsplitter_manufacturer:
+  value: ''
+  definition: The Manufacturer providing the beam splitter.
+emission_filter_range:
+  value: ''
+  definition: The width of the transmitted wavelength range.
+emission_filter_lower_bound:
+  value: ''
+  definition: The lower bound of of the wavelength transmitted by the emission filter.
+excitation_filter_model:
+  value: ''
+  definition: The model of excitation filter.
+excitation_filter_lower_bound:
+  value: ''
+  definition: The lower bound of of the wavelength transmitted by the excitation filter.
+excitation_filter_range:
+  value: ''
+  definition: The width of the transmitted wavelength range.
+identifier: hardware_filter_set
+excitation_filter_upper_bound:
+  value: ''
+  definition: The upper bound of of the wavelength transmitted by the excitation filter.
+inventory_no:
+  value: ''
+  definition: The inventory number of the FilterSet.
+excitation_filter_wavelength:
+  value: ''
+  definition: The wavelength of the excitation filter.
+excitation_filter_passband_transmission:
+  value: ''
+  definition: The transmission in the passband. Given in %.
+description:
+  value: ''
+  definition: A description of this hardware item.
+definition: The FilterSet or also FilterCube used in a microscope.
+name: hardware_filter_set

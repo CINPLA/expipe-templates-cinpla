@@ -1,0 +1,14 @@
+name: experiment_imaging
+identifier: experiment_imaging
+type:
+  alternatives:
+  - REM
+  - confocal
+  - fMRI
+  - light microscopy
+  - two-photon
+  value: ''
+  definition: The type of imaging like two-photon, confocal, REM, light microscopy,
+    fMRI, etc..
+definition: Properties for describing an imaging experiment ranging from conventional
+  light microscpoy to fMRI.

@@ -1,0 +1,16 @@
+local_anaesthetic:
+  value: Marcain
+  definition: The drug that was used for local anaesthesia.
+description:
+  value: Local anaesthetics
+  definition: A textual description of the preparation.
+name: malin_anaesthesia_local
+local_anaesthetic_location:
+  value: Skin covering dorsal part of head, around cut area.
+  definition: Describes the place the local anaesthetic was applied.
+identifier: malin_anaesthesia_local
+local_anaesthetic_dose:
+  value: 0.08
+  unit: mL
+notes:
+  value: ''

@@ -1,0 +1,44 @@
+box_distal_que_position:
+  value: north
+  definition: Distal que in the environment
+box_distal_que:
+  value: curtains, DAC, cable to headstage in celing
+  definition: Distal que in the environment.
+position_reference:
+  value: TODO
+  definition: Position reference of the room
+identifier: environment_open_field_tracking
+box_local_que_position:
+  value: north
+  definition: Position of local que in the environment, relative to position reference
+light_intensity:
+  value: minimal light from small lamp and desktop computer screen
+  definition: Intesity of light
+notes:
+  value: ''
+box_local_que:
+  value: white A4 paper sheet
+  definition: Local que in the environment
+box_size:
+  value:
+  - 100.0
+  - 100.0
+  unit: cm
+box_type:
+  value: square box
+  definition: The shape of the box
+description:
+  value: Environment during open field experiment.
+definition: Describing tracking setup, e.g. info on box size and ques.
+name: environment_open_field_tracking
+experimenter_position:
+  value: right side
+  definition: Position of experimenter relative to behaviour setup
+room_temperature:
+  value: 21.0
+  unit: degC
+  uncertainty: 0.1
+relative_humidity:
+  value: 55.0
+  unit: '%'
+  uncertainty: 10

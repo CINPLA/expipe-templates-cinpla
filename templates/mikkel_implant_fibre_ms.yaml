@@ -1,0 +1,45 @@
+position:
+  value:
+  - '0.0'
+  - '0.6'
+  - ' z'
+  unit: mm
+location:
+  alternatives:
+  - MECL
+  - MECR
+  - MS
+  value: MS
+  definition: 'Describes the brain area of recording. MS: Medial Septum, MECR: Medial
+    Entorhinal Cortex Right hemisphere, MECL: Medial Entorhinal Cortex Left hemisphere, '
+description:
+  value: ''
+definition: Describing an implantation procedure of an optic fibre.
+position_reference:
+  alternatives:
+  - bregma
+  - dura
+  - lambda
+  - longitudinal suture
+  - skull
+  - transverse sinus
+  value:
+  - bregma
+  - ' bregma'
+  - ' skull'
+  definition: By default position are specified by the coordinates of skull. Use this
+    property for other definitions.
+name: mikkel_implant_fibre
+identifier: mikkel_implant_fibre_ms
+angle:
+  value:
+  - 0.0
+  unit: deg
+notes:
+  value: ''
+hemisphere:
+  alternatives:
+    C, center: between hemispheres
+    L, left: left hemisphere
+    R, right: right hemisphere
+  value: C

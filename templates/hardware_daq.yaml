@@ -1,0 +1,72 @@
+manufacturer:
+  value: ''
+  definition: The Manufacturer of this hardware item.
+ao_max_sample_rate:
+  value: ''
+  definition: The maximum sampling rate.
+owner:
+  value: ''
+  definition: Who's the owner of the device.
+ai_channel_count:
+  value: ''
+  definition: The number of input channels of the DAQ-device.
+ao_channel_count:
+  value: ''
+  definition: The number of output channels of the device.
+model:
+  value: ''
+  definition: The model name of this hardware item.
+dio_line_count:
+  value: ''
+  definition: The number of digital input/output lines (DIO) of the device.
+ao_used_channel_count:
+  value: ''
+  definition: The number of used analog output channels.
+ai_sample_rate:
+  value: ''
+  definition: "The sample rate with which an individual input\n            channel\
+    \ was sampled. Given in Hz."
+ao_channel_gain:
+  value: ''
+  definition: The gain of an output channel.
+ai_used_channel_count:
+  value: ''
+  definition: The number of used analog input channels.
+ai_resolution:
+  value: ''
+  definition: The voltage resolution of the analog input (AIN) subsystem given in
+    bit.
+ai_reference:
+  value: ''
+  definition: The reference to which voltages were measured. Usually either "common
+    ground" or "differential".
+ao_resolution:
+  value: ''
+  definition: "The voltage resolution of a data-acquisition\n             analog output\
+    \ (AO) subsystem given in bit."
+ai_max_sample_rate:
+  value: ''
+  definition: The maximum sampling rate.
+ai_channel_gain:
+  value: ''
+  definition: The gain of an input channel.
+identifier: hardware_daq
+inventory_no:
+  value: ''
+  definition: The inventory number of the device.
+ao_sample_rate:
+  value: ''
+  definition: "The sample rate with which an individual output\n            channel\
+    \ was sampled. Given in Hz."
+serial_no:
+  value: ''
+  definition: The device's serial number.
+description:
+  value: ''
+  definition: A description of this hardware item.
+definition: The hardware section describes the settings of the used hardware. There
+  should be one hardware section for each hardware item that was used.
+name: hardware_daq
+ai_polarity:
+  value: ''
+  definition: The polarity of the measurement "unipolar" or "bipolar".

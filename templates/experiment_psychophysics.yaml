@@ -1,0 +1,24 @@
+training_duration:
+  value: ''
+  definition: The training duration.
+training_trials:
+  value: ''
+  definition: The number of trials used for training of the experimental subject.
+subject_instruction:
+  value: ''
+  definition: The instructions given to the subjects.
+name: experiment_psychophysics
+identifier: experiment_psychophysics
+definition:
+  value: ''
+  definition: A definition of the conducted experiment.
+subject_knowledge:
+  value: ''
+  definition: Was the subject "naive", "trained", or "instructed"?
+paradigm:
+  value: ''
+  definition: The experimental paradigm e.g. Two-alternative-forced-choice, Three-alternative-forced-choice.
+task:
+  value: ''
+  definition: The task the subjects have to do like "discrimination" between different
+    stimuli, "detection" of a stimulus etc...

@@ -1,0 +1,50 @@
+depth_reference:
+  alternatives:
+    dura: true
+    value: dura
+    skull: true
+channel_groups:
+  value:
+  - 0.0
+  - 1.0
+  - 2.0
+  - 3.0
+  definition: Which channel groups are associated with this electrophysiological measurement
+depth:
+  value: ''
+  unit: mm
+name: alessio_electrophysiology_L
+definition: Describing electrophysiology in the experimental setup.
+location:
+  alternatives:
+    HPCR: Hippocampus  right hemisphere
+    HPCL: Hippocampus left hemisphere
+  value: HPCL
+  definition: Describes the brain area of recording.
+identifier: alessio_electrophysiology_L
+subtype:
+  alternatives:
+  - dual electrode recording
+  - multi electrode recording
+  - single electrode recording
+  value: multi electrode recording
+  definition: Subtype of this electrophysiological experiment.
+type:
+  alternatives:
+  - EEG
+  - EKG
+  - EMG
+  - ERG
+  - extracellular recording
+  - intracellular recording
+  - loose patch
+  - patch clamp
+  - whole cell patch
+  value: extracellular recording
+notes:
+  value: ''
+hemisphere:
+  alternatives:
+    R: right hemisphere
+    L: left hemisphere
+  value: L

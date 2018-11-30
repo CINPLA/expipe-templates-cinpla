@@ -1,0 +1,69 @@
+type:
+  value: ''
+  definition: The type of grating used. Commonly either Sinewave or Squarewave gratings
+    are used.
+orientation:
+  count: ''
+  start: ''
+  stop: ''
+  definition: The orientation of the grating in degrees.
+grating_type:
+  value: ''
+  definition: The type of  grating, i.e. 'sinewave' or 'sqaurewave'.
+spatial_wavelength:
+  value: ''
+  definition: The spatial wavelength of the  grating.
+position_reference:
+  alternatives:
+  - bottom-right
+  - center
+  - top-left
+  value: ''
+  definition: By default stimulus positions are specified by the coordinates of the
+    top-left corner (or of the bounding box). Use this property for other definitions.
+identifier: ida_mros_stimulus_grating
+duration:
+  value: ''
+  definition: The duration of the stimulus in seconds.
+temporal_frequency:
+  value: ''
+  unit: Hz
+output_channel:
+  value: ''
+  definition: The physical output device (e.g. an analog output channel, a monitor
+    screen, the same loudspeaker, etc.). This information can be used to explicitly
+    express that several stimuli (that share the same OutputChannel) are jointly presented.
+contrast:
+  value: ''
+  definition: The contrast of the grating stimulus.
+temporal_offset:
+  value: ''
+  definition: The temporal offset (with respect to the begin of the recorded trial)
+    with which this stimulus was presented.
+drifting_velocity:
+  value: ''
+  definition: In case of a constantly drifting grating, the velocity
+position:
+  value: ''
+  definition: The position of the stimulus on e.g the screen. Specified as a 2-tuple
+    (x;y). By default this position refers to the top-left corner of the object or
+    its bounding box.
+intensity:
+  value: ''
+  definition: The mean intensity of the grating stimulus.
+spatial_extent:
+  value: ''
+  definition: The spatial extend of the presented stimulus (width;height) e.g. (1024;768).
+function:
+  value: ''
+  definition: The function of the described stimulus. E.g. if the white noise constituted
+    the carrier.
+name: ida_mros_stimulus_grating
+modality:
+  value: ''
+  definition: The stimulus modality like acoustic, haptic, visual etc.
+definition: Properties to describe Grating stimuli.
+spatial_frequency:
+  value: ''
+  unit: cpd
+  definition: the spatial frequency of the grating.

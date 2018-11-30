@@ -1,0 +1,64 @@
+structure:
+  value: ''
+  definition: "The structure of the organism the cell is\n         located in e.g.\
+    \ Eye, Spinal cord..."
+type:
+  value: ''
+  definition: The type of the recorded cell. E.g. pyramidal cell.
+input_resistance:
+  value: ''
+  definition: "The input resistance of the recorded\n         cell."
+brain_region:
+  value: ''
+  definition: "The region the cell is located in. For example\n         Retina, Cortex,\
+    \ Cerebellum etc."
+time_constant:
+  value: ''
+  definition: The mebrane time-constant.
+brain_sub_region:
+  value: ''
+  definition: "More detailed specification of the region the\n         cell is located\
+    \ in. For example, if BrainRegion is\n         \"hippocampus\", then the BrainSubRegion\
+    \ may be \"CA1\"."
+membrane_capacity:
+  value: ''
+  definition: The capacity of the cell.
+baseline_noise:
+  value: ''
+  definition: "The standard deviation of the baseline\n         membrane potential."
+identifier: cell_cell
+resting_potential:
+  value: ''
+  definition: "What is the cells resting potential of the\n         cell. An indiator\
+    \ for the recording quality."
+baseline_rate:
+  value: ''
+  definition: "For spiking cells, the spontaneous activity\n         which might be\
+    \ an indicator for the cell's health status and\n         thus recording quality."
+recording_location:
+  value: ''
+  definition: "The recording location in the cell. E.g. axonal, dendritic,\n     \
+    \    somatic, ..."
+comment:
+  value: ''
+  definition: A comment on the cell.
+name: cell_cell
+rheobase:
+  value: ''
+  definition: "The minimum current required to make the cell\n         fire action\
+    \ potentials."
+definition:
+  content: "Specification of the recorded cell. A cell definition\nshould be a subsection\
+    \ of the"
+  a:
+    content: Subject
+    href: ../subject/subject.xml
+identification:
+  value: ''
+  definition: How was the cell identified?
+layer:
+  value: ''
+  definition: The name of the layer. For example, layer 4 in CA1.
+ganglion:
+  value: ''
+  definition: "Like the pro-, meta- and mesothoracal ganglion\n         in invertebrates."

@@ -1,0 +1,14 @@
+adjustment:
+  value: ''
+  unit: um
+depth:
+  value: ''
+  unit: mm
+date: dd.mm.yyyy:HH:MM
+definition: Adjustment length of drive
+location: Left, Right
+identifier: mikkel_drive_depth_adjustment
+notes:
+  value: ''
+name: mikkel_drive_depth_adjustment
+experimenter: ''

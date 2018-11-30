@@ -1,0 +1,8 @@
+simulation_type:
+  value: ''
+  definition: 'The type of simulation: mathmatical, phenomenological, biophysical
+    etc..'
+name: model_multi_compartment
+identifier: model_multi_compartment
+definition: Properties to describe a biophysical model that consists of a number of
+  compartments.

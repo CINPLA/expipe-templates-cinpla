@@ -1,0 +1,36 @@
+serial_no:
+  value: ''
+  definition: The device's serial number.
+manufacturer:
+  value: Sanworks
+  definition: The Manufacturer of this hardware item.
+identifier: hardware_pulse_pal
+owner:
+  value: Marianne Fyhn, Torkel Hafting
+  definition: Who's the owner of the device.
+notes:
+  value: ''
+used_channel_count:
+  value: '2'
+  definition: The number of used analog input channels.
+inventory_no:
+  value: ''
+  definition: The inventory number of the device.
+model:
+  value: pulse pal version 1
+  definition: The model name of this hardware item.
+channel_count:
+  value: '4'
+  definition: The number of input channels of the DAQ-device.
+description:
+  value: Pulse Pal is an open source device that generates precise sequences of voltage
+    pulses.
+  definition: A description of this hardware item.
+definition: Describing the Pulse Pal TTL pulse giver hardware.
+polarity:
+  value: unipolar
+  definition: The polarity of the measurement "unipolar" or "bipolar".
+name: hardware_pulse_pal
+manufacturer_email:
+  value: sanders@dandrite.au.dk
+  definition: The Manufacturer's email of this hardware item.

@@ -1,0 +1,21 @@
+protocol_file:
+  value: ''
+  definition: Protocol File
+author:
+  value: ''
+  definition: The person, who created this protocol.
+description:
+  value: ''
+  definition: Description of the experiment
+duration:
+  value: ''
+  definition: Duration of the protocol.
+version:
+  value: ''
+  definition: Version of the protocol
+name: protocol_protocol
+identifier: protocol_protocol
+definition: Information about experiment
+protocol_file_url:
+  value: ''
+  definition: URL for protocol file

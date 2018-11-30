@@ -1,0 +1,72 @@
+result_figure:
+  value: ''
+  definition: "A figure showing the results. This property is meant to strore the\
+    \ real figure content. \n         This will blow up the the size of the metadatafile\
+    \ and we recommend to rather define the URL of the figure."
+code_revision:
+  value: ''
+  definition: If the analysis code is under version control the revision number can
+    be specified using this property.
+code_file:
+  value: ''
+  definition: "The program code to analyse the data can be transferred using this\
+    \ property. \n         Using it will blow up the the size of the metadatafile\
+    \ and we recommend to rather define the URL of underlying code file."
+author:
+  value: ''
+  definition: The name of the person who did the analysis, e.g. 'John Doe' or 'Doe,
+    John'
+paper_url:
+  value: ''
+  definition: If the results of this analysis have been published the URL of the document
+    can be given here
+paper_doi:
+  value: ''
+  definition: If the results of this analysis have been published one can store the
+    doi of the paper.
+identifier: analysis_analysis
+definition: Sections of the Analysis type can be used to describe analyses.
+dataset_file_url:
+  value: ''
+  definition: The URL of a analysed datasetFile.
+method:
+  value: ''
+  definition: The name of a method used in this analysis. E.g. "power spectrum".
+result_file_url:
+  value: ''
+  definition: The URL of a results file.
+result_file:
+  value: ''
+  definition: "The results of this analysis can be transferred using this property.\
+    \ \n         Using it willblow up the the size of the metadatafile and we recommend\
+    \ to rather define the URL of the results file."
+comment:
+  value: ''
+  definition: Specific comments on this analysis.
+name: analysis_analysis
+description:
+  value: ''
+  definition: A general description of the analysis.
+commandline_call:
+  value: ''
+  definition: The command used to execute the analysis including the command line
+    parameter.
+dataset_file:
+  value: ''
+  definition: "The data analysed ion the described way can be transferred using this\
+    \ property. \n         Using it will blow up the the size of the metadatafile\
+    \ and we recommend to rather define the URL of underlying dataset file."
+config_file_url:
+  value: ''
+  definition: The URL of the used configuration file used to run the analysis.
+code_file_url:
+  value: ''
+  definition: The URL of the applied piece of program code to actually do the analysis.
+config_file:
+  value: ''
+  definition: "The configurations used to analyse the data can be transferred using\
+    \ this property. \n         Using it will blow up the the size of the metadatafile\
+    \ and we recommend to rather define the URL of underlying configuration file."
+date:
+  value: ''
+  definition: The date of analysis.

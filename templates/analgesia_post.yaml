@@ -1,0 +1,17 @@
+definition: Analgesia , e.g. post surgery.
+post_op_analgesic_procedure:
+  value: Rimadyl was given in equal doses for 3 consecutive days after surgery
+  definition: The procedure of post surgery analgesic.
+description:
+  value: Analgesics
+  definition: A textual description of the preparation.
+post_op_analgesic:
+  value: Rimadyl
+  definition: The drug used for post surgery analgesia.
+post_op_analgesic_dose:
+  value: 0.5
+  unit: mL
+name: analgesia_post
+identifier: analgesia_post
+notes:
+  value: ''

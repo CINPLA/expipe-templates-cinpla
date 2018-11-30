@@ -1,0 +1,14 @@
+description:
+  value: Analgesics
+  definition: A textual description of the preparation.
+definition: Analgesia , during surgery.
+analgesic_dose:
+  value: 0.2
+  unit: mL
+name: mikkel_analgesia
+identifier: mikkel_analgesia
+analgesic:
+  value: Temgesic
+  definition: The drug used for analgesia.
+notes:
+  value: ''

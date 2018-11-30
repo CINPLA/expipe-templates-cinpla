@@ -1,0 +1,61 @@
+impedance:
+  value: ''
+  definition: Electrode impedance.
+manufacturer:
+  value: ''
+  definition: The manufacturer of the electrodes if e.g. ordered from a company.
+type:
+  alternatives:
+  - extracellular
+  - injection
+  - multi-electrode-array
+  - multibarrel
+  - patch
+  - sharp
+  - tetrode
+  value: ''
+  definition: The type of electrode.
+identifier: electrode_electrode
+tip_size:
+  value: ''
+  definition: The tip size.
+pull_parameter:
+  value: ''
+  definition: The specific pull parameters like heat, trip velocity, heat and cooling
+    duration etc..
+coating:
+  value: ''
+  definition: The coating used to insulate the electrodes.
+electrode_count:
+  value: ''
+  definition: Number of electrodes in a multi-electrode-array.
+shape_parameters:
+  value: ''
+  definition: The shape parameters of the electrode.
+name: electrode_electrode
+description:
+  value: ''
+definition: Properties to describe an electrode.
+glass_type:
+  value: ''
+  definition: The Type of Glass used to pull these electrodes. (e.g. Quartz, Borosilicate)
+material:
+  value: ''
+  definition: The Material the electrodes are made of e.g. glass. tungsten, steel
+    ...
+fire_polish:
+  value: ''
+  definition: Specifies whether or not the electrodes were fire polished.
+glass_specification:
+  value: ''
+  definition: Inner and outer diameter, with or without filament.
+usage:
+  alternatives:
+  - Channel
+  - Ground
+  - Reference
+  value: ''
+  definition: Usage of electrode.
+puller:
+  value: ''
+  definition: The Puller used to make the electrodes.

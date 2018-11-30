@@ -1,0 +1,66 @@
+output_range_min_volatge:
+  value: ''
+  definition: The minimal output voltage.
+manufacturer:
+  value: ''
+  definition: The Manufacturer of this hardware item.
+maximum_gain:
+  value: ''
+  definition: The maximum gain of the device.
+owner:
+  value: ''
+  definition: Who's the owner of the device.
+output_range_max_current:
+  value: ''
+  definition: The maximal ouput current.
+gain_db:
+  value: ''
+  definition: The gain of the device given in db.
+model:
+  value: ''
+  definition: The model name of this hardware item.
+output_range_max_voltage:
+  value: ''
+  definition: The maximal ouput voltage.
+input_range_min_voltage:
+  value: ''
+  definition: The minimal input voltage.
+input_range_max_voltage:
+  value: ''
+  definition: The maximal input voltage.
+identifier: hardware_stimulus_isolator
+output_type:
+  alternatives:
+  - Current
+  - Voltage
+  value: ''
+  definition: The type of output of the stimulus isolator.
+minimum_gain:
+  value: ''
+  definition: The minimum gain of the device.
+gain_step_size:
+  value: ''
+  definition: The size of the gain steps between minimum and maximum.
+gain:
+  value: ''
+  definition: The gain of the device.
+inventory_no:
+  value: ''
+  definition: The inventory number of the device.
+serial_no:
+  value: ''
+  definition: The device's serial number.
+description:
+  value: ''
+  definition: A description of this hardware item.
+output_range_min_current:
+  value: ''
+  definition: The minimal output current.
+name: hardware_stimulus_isolator
+definition: Properties of a stimulus Isolator device.
+outpu_mode:
+  alternatives:
+  - BipolarOff
+  - BipolarOn
+  value: ''
+  definition: The polarity mode of the stimulus isolator.

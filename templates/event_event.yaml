@@ -1,0 +1,11 @@
+name: event_event
+identifier: event_event
+timestamp:
+  value: ''
+  definition: "The local datetime entry of the moment the event was\n         taken\
+    \ (YYYY-MM-DD hh:mm:ss format)."
+description:
+  value: ''
+  definition: A description of the event.
+definition: "Section for short annotations that are taken during\n     an experiment\
+  \ to describe certain events."

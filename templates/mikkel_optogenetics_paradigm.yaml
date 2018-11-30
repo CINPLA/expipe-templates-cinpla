@@ -1,0 +1,12 @@
+definition: Describing the stimulus paradigm for optogenetic stimulus.
+name: mikkel_optogenetics_paradigm
+identifier: mikkel_optogenetics_paradigm
+stimulus_type:
+  alternatives:
+    positional: Stimulus is activated when subject enters a defined spatial area
+    train: Multiple trains of set duration and number of pulses
+  value: ''
+  definition: The type of stimulus.
+notes:
+  value: ''
+  definition: Notes specific for this stimulus session.

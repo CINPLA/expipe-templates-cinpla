@@ -1,0 +1,61 @@
+type:
+  alternatives:
+  - FixedApperture
+  - FixedFocus
+  - Macro
+  - Zoom
+  value: ''
+  definition: The type of objective.
+owner:
+  value: ''
+  definition: The owner of this device.
+manufacturer:
+  value: ''
+  definition: The Manufacturer providing the objective.
+focal_length_range:
+  value: ''
+  unit: dimensionless
+transmission_range:
+  value: ''
+  unit: dimensionless
+identifier: hardware_axona_camera_objective
+focal_length:
+  value: ''
+  unit: dimensionless
+aperture:
+  value: ''
+  unit: dimensionless
+transmission_lower_bound:
+  value: ''
+  unit: dimensionless
+notes:
+  value: ''
+maximum_aperture:
+  value: ''
+  unit: dimensionless
+inventory_no:
+  value: ''
+  definition: The inventory number of this device.
+model:
+  value: ''
+  definition: The objective model name.
+transmission_upper_bound:
+  value: ''
+  unit: dimensionless
+numerical_aperture:
+  value: ''
+  unit: dimensionless
+description:
+  value: ''
+  definition: A description of this hardware item.
+definition: Describing the objective used on the tracking camera
+name: hardware_axona_camera_objective
+serial_no:
+  value: ''
+  definition: The serial number of this device.
+mount:
+  alternatives:
+  - C-Mount
+  - CS-Mount
+  value: ''
+  definition: The type of mount.

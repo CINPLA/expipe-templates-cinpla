@@ -1,0 +1,25 @@
+inventory_no:
+  value: ''
+  definition: The inventory number of the device.
+model:
+  value: XEM6010 Xilinx Spartan-6 FPGA
+  definition: The model name of this hardware item.
+manufacturer:
+  value: Open-Ephys
+  definition: The Manufacturer of this hardware item.
+serial_no:
+  value: ''
+  definition: The device's serial number.
+description:
+  value: Open-Ephys Acquisition System
+  definition: A description of this hardware item.
+definition: This is a generic hardware section meant to take information of items
+  for which no specific terminology exists.
+name: hardware_openephys_daq
+identifier: hardware_openephys_daq
+owner:
+  value: Fyhn-Hafting
+  definition: Who's the owner of the device.
+type:
+  value: extracellular
+  definition: The type of amplifier. E.g. extracellular, intracellular amplifier etc.

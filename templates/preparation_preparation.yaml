@@ -1,0 +1,54 @@
+type:
+  value: ''
+  definition: In vivo or in vitro?
+local_anaesthesia:
+  value: ''
+  definition: Was there some local anaesthesia applied (true or false).
+local_anaesthetic:
+  value: ''
+  definition: "The drug that was used for local\n         anaesthesia."
+date:
+  value: ''
+  definition: Actual preparation date.
+slicing_method:
+  value: ''
+  definition: 'How was the brain sliced: Microtome etc.'
+anaestesia:
+  value: ''
+  definition: "Is the animal under anaesthesia (true) or\n         awake (false)?"
+identifier: preparation_preparation
+ringers_solution:
+  value: ''
+  definition: The Ringer solution used during preparation.
+bath_solution:
+  value: ''
+  definition: The solution the slice is bathed in.
+bath_temperature:
+  value: ''
+  definition: The temperature of the bath solution.
+slice_orientation:
+  value: ''
+  definition: 'The slice orientation: horizontal, sagital etc.'
+local_anaesthetic_dose:
+  value: ''
+  definition: The dose of the used local anaesthetic.
+name: preparation_preparation
+anaesthetic:
+  value: ''
+  definition: The drug used for anaesthesia.
+definition: Description of the preparation procedure.
+slice_thickness:
+  value: ''
+  definition: The thickness of the slice.
+local_anaesthetic_location:
+  value: ''
+  definition: Describes the place the local anaesthetic was applied.
+anaesthetic_dose:
+  value: ''
+  definition: The dose of the used anaesthetic.
+solution_flow_speed:
+  value: ''
+  definition: The flow speed of the bath solution.
+description:
+  value: ''
+  definition: A textual description of the preparation.

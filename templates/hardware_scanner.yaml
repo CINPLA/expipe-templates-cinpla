@@ -1,0 +1,48 @@
+scan_rate:
+  value: ''
+  definition: The size of each pixel.
+type:
+  value: ''
+  definition: The type of scanner used in a scanning microscope. (e.g. Galvanometer,
+    electro-optic-deflector etc.)
+manufacturer:
+  value: ''
+  definition: The Manufacturer providing the scanner.
+stack_z_range:
+  value: ''
+  definition: The depth scanned.
+scan_mode:
+  value: ''
+  definition: The scanning mode e.g. line or xy.
+image_width:
+  value: ''
+  definition: The width of the scanned image.
+identifier: hardware_scanner
+owner:
+  value: ''
+  definition: The inventory number of the FilterSet.
+model:
+  value: ''
+  definition: The scanner model name.
+image_height:
+  value: ''
+  definition: The height of the scanned image.
+inventory_no:
+  value: ''
+  definition: The inventory number of the FilterSet.
+dwell_time:
+  value: ''
+serial_no:
+  value: ''
+  definition: The device's serial number.
+description:
+  value: ''
+  definition: A description of this hardware item.
+definition: The Scanner used to scan microscope images.
+name: hardware_scanner
+pixel_size:
+  value: ''
+  definition: The size of each pixel.
+stack_z_step_size:
+  value: ''
+  definition: The step size with which the range is scanned.

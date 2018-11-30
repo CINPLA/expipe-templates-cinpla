@@ -1,0 +1,7 @@
+simulation_type:
+  value: ''
+  definition: 'The type of simulation: mathmatical, phenomenological, biophysical
+    etc..'
+name: experiment_modeling
+identifier: experiment_modeling
+definition: Properties for describing a modeling experiment.

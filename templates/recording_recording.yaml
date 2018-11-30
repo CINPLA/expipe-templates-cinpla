@@ -1,0 +1,34 @@
+start_time:
+  value: ''
+  definition: The time the recordings began (hh:mm:ss format).
+end_time:
+  value: ''
+  definition: The time the recordings ended (hh:mm:ss format).
+identifier: recording_recording
+definition: "During a recording session in a Setup Datasets are\n      obtained from\
+  \ Cells and/or a Subject by using various stimuli (Stimulus section)."
+start:
+  value: ''
+  definition: The date and time at which the recording started in  (YYYY-MM-DD hh:mm:ss
+    format).
+start_date:
+  value: ''
+  definition: The date the recording session was conducted (YYYY-MM-DD format).
+end:
+  value: ''
+  definition: The date and time at which the recording ended in  (YYYY-MM-DD hh:mm:ss
+    format).
+comment:
+  value: ''
+  definition: Comments on the recording session.
+end_date:
+  value: ''
+  definition: "The date the recording session ended (YYYY-MM-DD\n         format)."
+name: recording_recording
+experimenter_id:
+  value: ''
+  definition: If registered in a database the primary key of the person that performed
+    the experiments.
+experimenter:
+  value: ''
+  definition: The name of the person actually performing the recordings.

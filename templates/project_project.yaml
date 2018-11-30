@@ -1,0 +1,21 @@
+grant:
+  value: ''
+  definition: The name or identifier of the grant funding this project.
+scientist:
+  value: ''
+  definition: Additional involved person(s).
+end:
+  value: ''
+  definition: The date the project ended.
+topic:
+  value: ''
+  definition: "A descriptive text of the \n         project topic."
+definition: Information about the project.
+name: project_project
+identifier: project_project
+principle_investigator:
+  value: ''
+  definition: The person responsible for this project.
+start:
+  value: ''
+  definition: The day the project was begun.

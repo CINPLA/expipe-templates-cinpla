@@ -1,0 +1,75 @@
+threshold:
+  value: ''
+  definition: The firing threshold.
+date:
+  value: ''
+  definition: The simulation date.
+threshold_increment:
+  value: ''
+  definition: The voltage about which the threshold is increased once a spike has
+    been fired.
+program_version:
+  value: ''
+  definition: The program version name.
+threshold_time_constant:
+  value: ''
+  definition: The time ocnstant with which the threshold returns back to baseline.
+noise_correlation:
+  value: ''
+  definition: The correlation time constant used e.g. with OU noise.
+bias_current:
+  value: ''
+  definition: The offset current.
+capacitance:
+  value: ''
+  definition: The membrane restisance.
+threshold_equation:
+  value: ''
+  definition: The equation to calculate the threshold.
+noise_type:
+  value: ''
+  definition: The type of noise. For example Gaussian, Ohrnstein-Uhlenbeck etc.
+reset_potential:
+  value: ''
+  definition: The potential to which the neuron's potential is set after a spike.
+noise_amplitude:
+  value: ''
+  definition: The amount of noise added.
+voltage_equation:
+  value: ''
+  definition: The equation to calculate the membrane voltage.
+resting_potential:
+  value: ''
+  definition: The resting voltage.
+author:
+  value: ''
+  definition: The author of this model.
+program:
+  value: ''
+  definition: The program name.
+identifier: model_lif
+membrane_time_constant:
+  value: ''
+  definition: The membrane time constant.
+adaptation_time_constant:
+  value: ''
+  definition: The time constant with which the adaptation current returns back to
+    zero.
+timestep:
+  value: ''
+  definition: The duration of a time step in the simulation.
+description:
+  value: ''
+  definition: A descriptive text.
+definition: Properties to describe a leaky integrate and fire neuron model.
+resistance:
+  value: ''
+  definition: The membrane restisance.
+name: model_lif
+adaptation_increment:
+  value: ''
+  definition: When an adaptation current is implemented the amount about which the
+    adaptation is increased when a spike is fired.
+adaptation_equation:
+  value: ''
+  definition: The equation to calculate the adaptation currrent.

@@ -1,0 +1,53 @@
+impedance:
+  value:
+  - 150.0
+  unit: k ohm
+  uncertainty: '100'
+  definition: Electrode impedance.
+manufacturer:
+  value: California fine wire, CA, USA
+  definition: The manufacturer of the electrodes if e.g. ordered from a company.
+type:
+  alternatives:
+  - extracellular
+  - multi-electrode-array
+  - multibarrel
+  - patch
+  - sharp
+  value: extracellular
+  definition: The type of electrode registration.
+electrode_specification:
+  value:
+  - 17.0
+  unit: um
+identifier: malin_tetrode
+tip_size:
+  value:
+  - 34.0
+  unit: um
+notes:
+  value: ''
+coating:
+  value: Heavy poly-imid
+  definition: The coating used to insulate the electrodes.
+electrode_count:
+  value: 4
+  definition: Number of electrodes in a multi-electrode-array.
+name: malin_tetrode
+description:
+  value: Tetrode - four electrodes intertwined.
+definition: Describing electrodes in tetrodes used.
+material:
+  value: 10 % platinum, 90 % iridium
+  definition: The Material the electrodes are made of e.g. glass. tungsten, steel
+    ...
+electro_plating:
+  value: 'true'
+  definition: Specifies whether or not electro plating was performed.
+usage:
+  alternatives:
+  - Channel
+  - Ground
+  - Reference
+  value: Channel
+  definition: Usage of tetrode.

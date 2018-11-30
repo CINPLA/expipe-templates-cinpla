@@ -1,0 +1,14 @@
+definition: Describing the anatomical location of optogenetic stimulus.
+location:
+  alternatives:
+    MS: Medial Septum
+    MECL: Medial Entorhinal Cortex left hemisphere
+    MECR: Medial Entorhinal Cortex right hemisphere
+  value: ''
+  definition: Describes the site of the stimulus application. If the location is MEC,
+    the depth is the same as in electrophysiology minus 0.5 mm
+name: optogenetics_anatomical_location
+identifier: optogenetics_anatomical_location
+notes:
+  value: ''
+  definition: Notes specific for this stimulus session.

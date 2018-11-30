@@ -1,0 +1,45 @@
+position_reference:
+  alternatives:
+  - bregma
+  - dura
+  - lambda
+  - longitudinal suture
+  - skull
+  - transverse sinus
+  value:
+  - bregma
+  - ' bregma'
+  - ' skull'
+  definition: By default position are specified by the coordinates of skull. Use this
+    property for other definitions.
+angle:
+  value:
+  - 0.0
+  unit: deg
+definition: Describing an implantation procedure of an optic fibre.
+hemisphere:
+  alternatives:
+    C, center: between hemispheres
+    R, right: right hemisphere
+    L, left: left hemisphere
+  value: C
+position:
+  value:
+  - '0.0'
+  - '0.6'
+  - ' z'
+  unit: mm
+description:
+  value: ''
+location:
+  alternatives:
+  - MECL
+  - MECR
+  - MS
+  value: MS
+  definition: 'Describes the brain area of recording. MS: Medial Septum, MECR: Medial
+    Entorhinal Cortex Right hemisphere, MECL: Medial Entorhinal Cortex Left hemisphere, '
+name: implant_fibre_ms
+identifier: implant_fibre_ms
+notes:
+  value: ''

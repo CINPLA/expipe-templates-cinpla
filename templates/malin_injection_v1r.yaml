@@ -1,0 +1,78 @@
+location:
+  alternatives:
+    V1MR: Primary visual cortex, monocular area, right hemisphere
+    V1BR: Primary visual cortex, binocular area, right hemisphere
+  value: ''
+  definition: Describes the brain area of recording
+injection_substance_information:
+  value: Diluted to 5X10e12  with ice cold PBS (sterile lab PBS
+  definition: Additional information to injection substance.
+position_reference:
+  alternatives:
+  - bregma
+  - dura
+  - lambda
+  - longitudinal suture
+  - skull
+  - transverse sinus
+  value:
+    y: lambda
+    z: dura
+    x: longitudinal suture
+  definition: By default position are specified by the coordinates of skull. Use this
+    property for other definitions.
+injection_substance_manufacurer:
+  value: Deisseroth lab
+  definition: Name of manufacturer of the injection substance.
+injection_substance:
+  value: ''
+  local_marker: ''
+  definition: The full name of the injection substance, e.g. AAV8-hSyn-eChR2(H134R)-EYFP.
+glass_pipette_puller_manufacturer:
+  value: Sutter Instrument Company
+  definition: The manufacturer of the P-30 micropipette puller.
+injection_substance_storage_manufactuer:
+  value: ''
+  definition: Manufacturer of storage device for injection substance
+glass_pipette_diameter:
+  value:
+  - 15.0
+  - 20.0
+  unit: um
+injection_substance_storage_temp:
+  value:
+  - -80.0
+  unit: degC
+position:
+  value:
+  - x
+  - y
+  - z
+  unit: mm
+hemisphere:
+  alternatives:
+    C, center: between hemispheres
+    L, left: left hemisphere
+    R, right: right hemisphere
+  value: R
+description:
+  value: Injection of virus in dLGN, AAV-mediated expression of channelrhodopsin-2
+  definition: A textual description of the preparation.
+definition: Describing an injection procedure e.g. injection of virus.
+name: malin_injection_v1r
+notes:
+  value: 1 minute waiting before injection, 10 minute waiting after
+angle:
+  value:
+  - 0.0
+  unit: deg
+flow:
+  value:
+  - 20
+  unit: nl/min
+  definition: The angle of the glass pipette, assuming leveled bregma and lambda,
+    0 degrees is vertical implantation
+identifier: malin_injection_v1r
+injection_substance_storage_info:
+  value: Kept on ice in fridge during surgery, for 2 h
+  definition: Information of storage procedure of injection substance.

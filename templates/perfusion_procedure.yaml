@@ -1,0 +1,35 @@
+time_true_fixation:
+  value: ''
+  unit: min
+anaesthetic:
+  value: Isoflurane and Pentobarbital
+  definition: The drug used for anaesthesia.
+time_liver_clearing:
+  value: ''
+  unit: min
+fixative:
+  value: 4 % paraformaldehyde
+  definition: The fluid used to fixate the tissue.
+identifier: perfusion_procedure
+notes:
+  value: ''
+anaesthetic_dose:
+  value: 1 L/M of Isoflurane until unconcious, then 0.7 mL Pentobarbital
+  definition: The dose of the used anaesthetic.
+description:
+  value: Deeply anesthetized animal is perfused in order to preserve brain tissue
+    for imunohistochemical analysis.
+  definition: A textual description of the preparation.
+time_stiffness:
+  value: ''
+  unit: min
+flow_rate:
+  value: ''
+  unit: L/min
+name: perfusion_procedure
+time_post_fixative:
+  value: ''
+  unit: h
+buffer:
+  value: 0.9 % NaCl in H2O
+  definition: The fluid used to flush out blood vessels.

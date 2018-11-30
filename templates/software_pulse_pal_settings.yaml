@@ -1,0 +1,53 @@
+repetitions:
+  value: ''
+  definition: The number of repetitions of the described stimulation. Defined as on
+    time of a train of pulses
+trigger_software:
+  alternatives:
+    Matlab: Matlab software provided by PulsePal
+    OpenEphys: Trigger software from the Open Ephys GUI
+  value: ''
+  definition: What software triggers the pulsepal.
+output_channels:
+  value:
+  - 1.0
+  - 2.0
+  definition: The physical output channels used.
+definition: Describing the settings on pulse pal.
+stimulus_file_url:
+  value: ''
+  definition: The URL of a an applied stimulus file. OBLIGATORY
+start_times:
+  value: ''
+  unit: s
+trigger_channels:
+  value: ''
+  definition: If externally triggered, by which channel.
+interstimulus_interval:
+  value: ''
+  unit: s
+outputs_to:
+  value:
+  - Laser
+  - ' Acquisition system'
+  definition: The recieving end of the output channels.
+pulse_period:
+  value: ''
+  unit: ms
+notes:
+  value: ''
+  definition: Notes specific for this stimulus session.
+pulse_frequency:
+  value: ''
+  unit: Hz
+output_device:
+  value: Pulse Pal
+  definition: The physical output device.
+pulse_phase_duration:
+  value: ''
+  unit: ms
+name: pulse_pal_settings
+identifier: software_pulse_pal_settings
+train_durations:
+  value: ''
+  unit: s

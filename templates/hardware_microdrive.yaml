@@ -1,0 +1,17 @@
+manufacturer:
+  value: Axona made the chassie, tetrodes are assembled on site
+  definition: The manufacturer of the drive e.g. ordered from a company.
+registration_type:
+  value: extracellular
+  definition: The type of registration.
+description:
+  value: A micro drive is the holder of four tetrodes originally designed for Axona
+    setup.
+definition: Describing a micro drive.
+name: hardware_microdrive
+identifier: hardware_microdrive
+notes:
+  value: ''
+tetrode_count:
+  value: 4
+  definition: Number of tetrodes in drive.

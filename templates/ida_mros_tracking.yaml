@@ -1,0 +1,23 @@
+axona_pos_tracking:
+  alternatives:
+  - y
+  - n
+  value: ''
+  definition: Did axona position tracking
+bonsai:
+  axona_synced:
+    alternatives:
+    - y
+    - n
+    value: ''
+    definition: Is synced with axona
+  position:
+    alternatives:
+    - overhead
+    - front
+    value: ''
+    definition: Describes the position of the camera.
+  definition: Describes the Bonsai tracking type.
+identifier: ida_mros_tracking
+name: ida_mros_tracking
+definition: Describes the tracking type

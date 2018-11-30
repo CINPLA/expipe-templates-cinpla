@@ -1,0 +1,57 @@
+amplitude:
+  value: ''
+  definition: The modulation amplitude (i.e. the difference between up and downstate.)
+position_reference:
+  alternatives:
+  - bottom-right
+  - center
+  - top-left
+  value: ''
+  definition: By default stimulus positions are specified by the coordinates of the
+    top-left corner (or of the bounding box). Use this property for other definitions.
+intensity_offset:
+  value: ''
+  definition: The mean intensity of the stimulus.
+identifier: stimulus_square_wave
+duration:
+  value: ''
+  definition: The duration of the stimulus in seconds.
+frequency:
+  value: ''
+  definition: The frequency of the square wave modulation.
+temporal_offset:
+  value: ''
+  definition: The temporal offset (with respect to the begin of the recorded trial)
+    with which this stimulus was presented.
+output_channel:
+  value: ''
+  definition: "The physical output device (e.g. an analog output channel, a monitor\
+    \ screen, the same loudspeaker, etc.). This information can be used to explicitely\
+    \ express that several stimuli (that share the same OutputChannel) are jointly\t\
+    presented."
+position:
+  value: ''
+  definition: The position of the stimulus on e.g the screen. Specified as a 2-tuple
+    (x;y). By default this position refers to the top-left corner of the object or
+    its bounding box.
+spatial_extent:
+  value: ''
+  definition: The spatial extend of the presented stimulus (width;height) e.g. (1024;768).
+function:
+  value: ''
+  definition: The function of the described stimulus. E.g. if the white noise constituted
+    the carrier.
+name: stimulus_square_wave
+modality:
+  value: ''
+  definition: The stimulus modality like acoustic, haptic, visual etc.
+start_amplitude:
+  value: ''
+  definition: The amlitude with which the squarewave stimulus started. This may assume
+    either intensity offset - or + amplitude/2.
+duty_cycle:
+  value: ''
+  definition: The part of the cylce spend in the up state. E.g. 0.5 if up and down
+    state each take half of the time.
+definition: A squarewave stimulus was presented. Squarewaves modulate with a certain
+  frequency about the intensity offset.
